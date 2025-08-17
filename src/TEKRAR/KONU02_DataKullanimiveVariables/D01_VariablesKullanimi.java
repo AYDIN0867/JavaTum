@@ -24,7 +24,20 @@ public class D01_VariablesKullanimi {
         // ve eşitliğin önce solunu yapar ve number e yeni deger olarak atar;
 
         System.out.println("number variable'inin 23. satirdaki degeri : "+number);
+
+        number=2*number+1;
+
+        System.out.println("number variable'inin 28. satirdaki degeri : "+number);//91
+
+
+
+
+
+
+
     }//main method sonu
+
+
 
 
 }
