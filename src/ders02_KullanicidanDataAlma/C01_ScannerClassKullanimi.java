@@ -11,7 +11,7 @@ public class C01_ScannerClassKullanimi {
         Scanner scan=new Scanner(System.in);
         System.out.println("lütfen bir tam sayı giriniz");
         int sayi2=scan.nextInt();
-        System.out.println("lütfen bir bir virgüllü sayı giriniz");
+        System.out.println("lütfen  bir virgüllü sayı giriniz");
         double sayi1=scan.nextDouble();
 
 
