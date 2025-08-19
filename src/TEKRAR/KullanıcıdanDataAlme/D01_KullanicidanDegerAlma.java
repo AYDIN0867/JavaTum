@@ -2,7 +2,7 @@ package TEKRAR.KullanıcıdanDataAlme;
 
 import java.util.Scanner;
 
-public class D05_KullanicidanDegerAlma {
+public class D01_KullanicidanDegerAlma {
 
     public static void main(String[] args) {
 
@@ -29,7 +29,7 @@ public class D05_KullanicidanDegerAlma {
         System.out.println("girdiginiz sayıların carpımı : "+(ondaliklisayı*tamsayi));
         System.out.println("girdiginiz sayıların toplamı : "+(ondaliklisayı+tamsayi));
 
-
+//
 
 
 
