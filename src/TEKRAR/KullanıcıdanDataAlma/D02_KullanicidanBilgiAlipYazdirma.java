@@ -1,4 +1,4 @@
-package TEKRAR.KullanıcıdanDataAlme;
+package TEKRAR.KullanıcıdanDataAlma;
 
 import java.util.Scanner;
 
