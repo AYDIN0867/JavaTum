@@ -1,4 +1,4 @@
-package ders17_for_loop;
+package ders17_For_loop;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package TEKRAR.KONU02_DataKullanimiveVariables;
+package TEKRAR.Konu02_DataKullanimiveVariables;
 
 public class D03_StrindDataTuru {
 

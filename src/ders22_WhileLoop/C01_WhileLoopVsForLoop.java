@@ -1,4 +1,4 @@
-package ders22_whileLoop;
+package ders22_WhileLoop;
 
 public class C01_WhileLoopVsForLoop {
 

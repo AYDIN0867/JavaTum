@@ -1,4 +1,4 @@
-package TEKRAR.KONU02_DataKullanimiveVariables;
+package TEKRAR.Konu02_DataKullanimiveVariables;
 
 public class D01_VariablesKullanimi {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ders22_whileLoop;
+package ders22_WhileLoop;
 
 import java.util.Scanner;
 
