@@ -21,7 +21,27 @@ public class C01_SınıfGecme {
           System.out.println("sınıfı gectiniz....");
       }
 
+int a=20;
+int b=25;
 
+if(a>b){
+
+    System.out.println("a sayısı b den buyuk");
+}
+
+if(a<100){
+
+    System.out.println("a sayısı 100 den kucuk");
+
+}
+
+
+if(b<0){
+
+    System.out.println("b 0 dan buyuk");
+
+
+}
 
 
     }
