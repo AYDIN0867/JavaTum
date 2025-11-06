@@ -10,7 +10,7 @@ public class C05_BagimsizIfCumleleriSonucKontrolu {
  //1-sayi1<sayi2 ise "birinci  sayi daha kucuk"
  //2- sayi1 pozitif ise "birinci sayi sıfırdan buyuk"
  //3- sayi2 50 den buyuk ise "ikinci sayı 50 den buyuk"
- //4-sayi 5 ilr bolunrbiliyorsa "ikinci  sayı 5 in tam kati"
+ //4-sayi2 5 ilr bolunrbiliyorsa "ikinci  sayı 5 in tam kati"
  //5- eger konsolde yukarıdakilerin HICBIRI yazdırılmasa
  // "nasıl sayı sectiniz , hicbir sarti sağlamayor" yazdırın
 
