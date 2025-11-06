@@ -52,7 +52,7 @@ public class C08_BaginsizIfStatementsFlagYontemi {
         }
 
 //bağımsız if cümlelerindeki espiri tek şarta bağlı olarak kodumuz çalışır
-        //şartın olmaması durumunda ne olacağını bilmiyoruz...
+        //şartın olmaması durumunda ne olacağını bilmiyoruz...biz bunlara basit if cümleleri de deriz...
 
 
     }
