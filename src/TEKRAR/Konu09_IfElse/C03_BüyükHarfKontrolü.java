@@ -1,4 +1,4 @@
-package TEKRAR.Konu09_IfElseIf;
+package TEKRAR.Konu09_IfElse;
 
 import java.util.Scanner;
 
