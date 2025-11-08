@@ -22,6 +22,8 @@ public class C03_VücutKitleEndeksi {
 
         double vücutKitleEndeksi=kilo*10000/(boy*boy);
 
+        System.out.println("vücut kitle endeksi :" + vücutKitleEndeksi);
+
         if (vücutKitleEndeksi<20){
             System.out.println("ZAYIF");
         } else if (vücutKitleEndeksi<25) {
@@ -29,6 +31,7 @@ public class C03_VücutKitleEndeksi {
         } else if (vücutKitleEndeksi<30) {
             System.out.println("KİLOLU");
         } else System.out.println("OBEZSIN DOSTUM");
+
 
 
     }
