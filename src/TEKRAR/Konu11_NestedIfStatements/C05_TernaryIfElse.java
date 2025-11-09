@@ -1,5 +1,5 @@
 
-package TEKRAR.NestedIfStatements;
+package TEKRAR.Konu11_NestedIfStatements;
 
 import java.util.Scanner;
 
