@@ -13,6 +13,29 @@ public class C01_SwitchStatements {
      // 1-7 arasındaki sayilardan farklı bir sayı girerse hata mesajı yazdırın
 
         Scanner scanner=new Scanner(System.in);
+        System.out.println("haftanın kacıncı gününü yazdırmak istiyorsunuz...");
+        int istenenGun=scanner.nextInt();
+
+        switch (istenenGun){
+
+            case 1: //isteneGUn==1 oldugu durum
+                System.out.println("pazartesi");
+            case 2:
+                System.out.println("salı");
+            case 3:
+                System.out.println("carsamba");
+            case 4:
+                System.out.println("persembe");
+            case 5:
+                System.out.println("cuma");
+            case 6:
+                System.out.println("cumartesi");
+            case 7:
+                System.out.println("pazar");
+
+
+        }
+
 
         // 76.slayttaki soruları çöz....
 
