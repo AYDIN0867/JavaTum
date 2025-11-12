@@ -30,5 +30,10 @@ public class C02_length {
 
 // sondan 3. karakterini yazdirin
         System.out.println(str.charAt(str.length() - 3));
+
+//metindeki baştan 2. ve sondan 3. karakteri yan yana yazdirin...
+
+        System.out.println(""+str.charAt(1) + str.charAt(str.length()-3));
+
     }
 }
