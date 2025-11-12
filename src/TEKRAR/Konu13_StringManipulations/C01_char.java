@@ -39,5 +39,7 @@ s=s.toUpperCase();
 
         System.out.println(isim.charAt(isim.length()-5));
 
+
+
     }
 }
