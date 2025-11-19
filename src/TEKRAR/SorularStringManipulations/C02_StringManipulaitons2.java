@@ -12,8 +12,21 @@ public class C02_StringManipulaitons2 {
 
 
 
-        String fiyat1= "15.30 €";
-        String fiyat2= "11.45 €";
+        String fiyatStr1= "15.30 €";
+        String fiyatStr2= "11.45 €";
+
+        int ilkSpaceIndex=fiyatStr1.indexOf(" ");//5
+        String paraBirimi=fiyatStr1.substring(ilkSpaceIndex);
+
+        fiyatStr1=fiyatStr1.replaceAll("\\D","");
+        fiyatStr2=fiyatStr2.replaceAll("\\D","");
+
+
+
+        double fiyat1=Double.parseDouble(fiyatStr1)/100;
+        double fiyat2=Double.parseDouble(fiyatStr2)/100;
+
+        System.out.println("fiyatların toplamı : "+(fiyat1+fiyat2)+paraBirimi);
 
 
     }
