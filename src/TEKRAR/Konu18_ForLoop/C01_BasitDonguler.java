@@ -62,6 +62,25 @@ public class C01_BasitDonguler {
 
             }
 
+        System.out.println(" ");
+//verilen baslangıc ve bitis degerleri dahil olmak üzere
+// bu sayilar arasinda 7 ile bölünebilen sayi adedini yazınız....
+
+
+int baslangic=235;
+int bitis=1673;
+int sayac=0;
+
+
+        for (int i = baslangic; i <=bitis ; i++) {
+
+            if (i%7==0){
+
+                sayac++;
+            }
+
+        }System.out.println(sayac);//206
+
 
 
 
