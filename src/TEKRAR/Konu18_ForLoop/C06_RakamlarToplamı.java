@@ -24,8 +24,17 @@ public class C06_RakamlarToplamı {
 
             basamakToplami+=sayi%10;
             sayi/=10;
-            System.out.print(i+" ");
+
         }
+        int birlerBasamgı=girilenSayi%10;
+        girilenSayi/=10;
+        int onlarBasamagı=girilenSayi%10;
+        girilenSayi/=10;
+        int yüzlerBasamgı=girilenSayi%10;
+
+        System.out.print(yüzlerBasamgı+"+"+onlarBasamagı+"+"+birlerBasamgı);
+
+
 
         System.out.print("= "+basamakToplami);
 
