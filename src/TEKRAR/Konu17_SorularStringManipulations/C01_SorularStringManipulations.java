@@ -1,4 +1,4 @@
-package TEKRAR.SorularStringManipulations;
+package TEKRAR.Konu17_SorularStringManipulations;
 
 import java.util.Scanner;
 

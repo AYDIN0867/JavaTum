@@ -1,4 +1,4 @@
-package TEKRAR.SorularStringManipulations;
+package TEKRAR.Konu17_SorularStringManipulations;
 
 public class C02_StringManipulaitons2 {
     public static void main(String[] args) {
