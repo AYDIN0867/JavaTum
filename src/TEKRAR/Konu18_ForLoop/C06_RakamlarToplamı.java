@@ -34,8 +34,6 @@ public class C06_RakamlarToplamı {
 
         System.out.print(yüzlerBasamgı+"+"+onlarBasamagı+"+"+birlerBasamgı);
 
-
-
         System.out.print("= "+basamakToplami);
 
 
