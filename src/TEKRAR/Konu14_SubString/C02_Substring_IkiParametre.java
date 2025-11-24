@@ -39,7 +39,7 @@ public class C02_Substring_IkiParametre {
  // baştan 3 .karakterden başlayıp,
  // sondan 3. karaktere kadar (dahil) olan bolumu yazdırın
 
-        System.out.println(str.substring(2, str.length() - 3));
+        System.out.println(str.substring(2, str.length() - 2));
 
 
     }
