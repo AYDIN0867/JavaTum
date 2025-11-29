@@ -2,18 +2,18 @@ package TEKRAR.NestedForLoop;
 
 import java.util.Scanner;
 
-public class C04_NestedForLoop {
+public class C05_NestedForLoop {
     public static void main(String[] args) {
 
         //Kullanıcıdan satir sayisini alip asagidaki sekli cizdirin...
-        //        orn satir=5
+
         /*
 
-         *
-         * *
-         * * *
-         * * * *
-         * * * * *
+        0
+        0 1
+        0 1 2
+        0 1 2 3
+        0 1 2 3 4
 
          */
 
@@ -21,20 +21,19 @@ public class C04_NestedForLoop {
         System.out.println("Lütfen satir sayisini giriniz...");
         int satir = scanner.nextInt();
 
-
         for (int i = 1; i <= satir; i++) {
 
-            for (int j = 1; j <=i ; j++) {
+            for (int j = 1; j <=i; j++) {
 
-                System.out.print("* ");
-
+                System.out.print(j-1+" ");
 
             }
 
             System.out.println("");
-
         }
 
-    }
 
+
+
+    }
 }
