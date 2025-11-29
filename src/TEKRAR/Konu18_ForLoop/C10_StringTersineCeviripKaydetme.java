@@ -1,5 +1,7 @@
 package TEKRAR.Konu18_ForLoop;
 
+import TEKRAR.Konu20_MetodOlusturma.C04_AsalMıDegılMı;
+
 import java.util.Scanner;
 
 public class C10_StringTersineCeviripKaydetme {
@@ -29,7 +31,10 @@ public class C10_StringTersineCeviripKaydetme {
      }else System.out.println("palidrom değil...");
 
 
-
+C04_AsalMıDegılMı.asalMıYazdir(23);
 
     }
+
+
+
 }

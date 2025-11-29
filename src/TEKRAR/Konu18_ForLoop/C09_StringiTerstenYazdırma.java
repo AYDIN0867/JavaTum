@@ -1,8 +1,12 @@
 package TEKRAR.Konu18_ForLoop;
 
+import TEKRAR.Konu20_MetodOlusturma.C04_AsalMıDegılMı;
+
 import java.util.Scanner;
 
 public class C09_StringiTerstenYazdırma {
+
+
     public static void main(String[] args) {
 
         //Kullanicidan bir String isteyin ve String i tersten yazdırın.
@@ -25,4 +29,7 @@ public class C09_StringiTerstenYazdırma {
 
 
     }
+
+
+
 }
