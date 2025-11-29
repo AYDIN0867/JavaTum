@@ -1,4 +1,4 @@
-package TEKRAR.NestedForLoop;
+package TEKRAR.Konu19_NestedForLoop;
 
 public class C01_NestedForLoop {
 

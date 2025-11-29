@@ -1,4 +1,4 @@
-package TEKRAR.NestedForLoop;
+package TEKRAR.Konu19_NestedForLoop;
 
 import java.util.Scanner;
 
