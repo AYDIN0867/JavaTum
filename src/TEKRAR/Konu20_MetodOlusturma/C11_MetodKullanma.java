@@ -1,6 +1,6 @@
 package TEKRAR.Konu20_MetodOlusturma;
 
-public class C09_MetodKullanma {
+public class C11_MetodKullanma {
     public static void main(String[] args) {
 
 
@@ -9,6 +9,9 @@ public class C09_MetodKullanma {
         System.out.println(C07_IsmiDüzenle.isimDuzenle("ramazan", "saltık"));
 
         System.out.println(C08_TerstenYazdir.tersYazılısınıDondur("merkez"));
+
+        System.out.println(C09_PalidromKontrol.isPalindrome("madam"));
+        System.out.println(C09_PalidromKontrol.isPalindrome("samsun"));
 
     }
 }
