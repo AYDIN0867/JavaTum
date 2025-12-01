@@ -15,9 +15,51 @@ public class C10_SifreKontrol {
         //- uzunlugu en az 10 karakter olmalı...
 
 
+        System.out.println(isPasswordValid("12hhkjl"));//false
 
 
+    }
 
+
+    public static boolean isPasswordValid(String girilenSifre){
+
+        char ilkHarf=girilenSifre.charAt(0);
+        int sonKarakter= Integer.parseInt(String.valueOf((girilenSifre.length()-1)));
+        int sayac=0;
+
+        if (!Character.isLowerCase(ilkHarf)){
+
+            System.out.println("ilk harf buyuk olmalı");
+            sayac++;
+        }
+
+        if (!(sonKarakter>0&&sonKarakter<10)){
+
+            System.out.println("son karakter rakam olmalı");
+            sayac++;
+        }
+
+        if (girilenSifre.contains(" ")){
+
+            System.out.println("şifre boşluk içermemeli");
+            sayac++;
+        }
+
+        if (girilenSifre.length()<10){
+
+            System.out.println("karakter sayısı 10 dan az olmamalı");
+            sayac++;
+
+        }
+
+        if (sayac==0) {
+
+           // System.out.println("girilen şifre doğru");
+            return true;
+        }else {
+
+            return false;
+        }
 
 
 

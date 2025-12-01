@@ -1,6 +1,6 @@
 package TEKRAR.Konu20_MetodOlusturma;
 
-public class C11_MetodKullanma {
+public class C12_MetodKullanma {
     public static void main(String[] args) {
 
 
