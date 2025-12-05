@@ -28,7 +28,37 @@ public class C01_WhileLoop {
 
   }
 
+  // 20 den 30 a kadar olan sayiları (20 ve 30 dahil) carpin ve yazdirin
+
+
+        int carpim=1;
+
+        for (int i = 20; i <=30 ; i++) {
+
+            carpim+=carpim*i;
+
+
+        }
+
+        System.out.println("carpim :"+ carpim);
+
+        sayi=20;
+        carpim=1;
+    while (sayi<=30){
+
+        carpim*=sayi;
+        sayi++;
+
+    }
+
+
 
 
     }
+
+
+
+
+
+
 }
