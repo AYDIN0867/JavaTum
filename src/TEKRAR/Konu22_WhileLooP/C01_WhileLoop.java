@@ -14,7 +14,7 @@ public class C01_WhileLoop {
         toplam+=i;
         }
 
-        System.out.println(toplam);
+        System.out.println("for loop ile sonuc : "+toplam);
 
   //aynı soruyu   while loop ile yapalım...
 
@@ -28,10 +28,12 @@ public class C01_WhileLoop {
 
   }
 
+
+        System.out.println("while loop ile sonu : "+ toplam);
   // 20 den 30 a kadar olan sayiları (20 ve 30 dahil) carpin ve yazdirin
 
 
-        int carpim=1;
+        long carpim=1;
 
         for (int i = 20; i <=30 ; i++) {
 
@@ -44,14 +46,15 @@ public class C01_WhileLoop {
 
         sayi=20;
         carpim=1;
+
     while (sayi<=30){
 
-        carpim*=sayi;
+        carpim+=carpim*sayi;
         sayi++;
 
     }
 
-
+        System.out.println("while loop ile sonu : "+ carpim);
 
 
     }
