@@ -8,7 +8,7 @@ public class C04_Soru {
         // kullanicidan bir metin isteyin
         // metin ev içeriyorsa "Ev gibisi var mi"
         // metin iş içeriyorsA "Çalışmak ne güzel"
-        // metin hem ev hem içeriyorsa  iş içeriyorsa "Evden çalışmak gibisi yok"
+        // metin hem ev hem  iş içeriyorsa "Evden çalışmak gibisi yok"
         // metin bu iki kelimeyi de içermiyorsa "Çok çalışmak lazim, çoook" yazdırın
 
         Scanner scanner=new Scanner(System.in);
