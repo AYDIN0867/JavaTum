@@ -58,7 +58,10 @@ public class C02_DoWhileLoop {
 
         }
 
-
+               // while loop un en buyuk eksisi kullanıcıdan  deger alınan gorevlerde loop
+    // calısmadan once kod yazan kisinin atayacagı degerin ONEMLI olmasıdır....
+    //cunku kodda ilk deger atamasında yanlıs olursa loop body si hiç çalışmaya bilir...
+    //kullanıcıdan mutlaka bir deger alınması planlanıyorsa do while loop daha eyidir...
     }
 
 
