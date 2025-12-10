@@ -2,16 +2,18 @@ package TEKRAR.Konu23_DoWhileLoop;
 
 import java.util.Scanner;
 
-public class C04_AradakiHarfleriYazdırma {
+public class C05_AradakiHarfleriYazdırMetodla {
     public static void main(String[] args) {
 
-        /*
-        Kullanıcıdan baslangıc ve bitis harflerini alıp,
-        o harfleri ve aralarındaki harfleri yazdırın...
-        Kullanıcı bir harf değil bir metin girerse  uyarı verip, yeniden
-        harf girmesini isteyin
-        kullanıcı harf girinceye kadar tekrar isteyin...
-         */
+
+
+
+
+
+    }
+
+
+    public static void aradakiHarfiYazdir(String metin1,String metin2){
 
         Scanner scanner = new Scanner(System.in);
         char girilenHarfilk = 'a';
@@ -37,15 +39,23 @@ public class C04_AradakiHarfleriYazdırma {
                 System.out.println("girdiğiniz harf karaketer olmalıdır...");
             }else {//kullanıcı tek karakter girdi ve girilen karakter harf...
 
-               while (girilenHarfilk<=girilenHarfikinci){
+                while (girilenHarfilk<=girilenHarfikinci){
 
-                   System.out.print(girilenHarfilk+ " ");
-                   girilenHarfilk++;
-               }
+                    System.out.print(girilenHarfilk+ " ");
+                    girilenHarfilk++;
+                }
             }
 
         }while (girilenBaslangıcMetin.length() > 1 || girilenBitisMetin.length() > 1||!Character.isLetter(girilenHarfilk) || !Character.isLetter(girilenHarfikinci));
 
     }
 
-}
+
+
+
+    }
+
+
+
+
+
