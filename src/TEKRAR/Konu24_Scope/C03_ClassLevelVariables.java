@@ -41,3 +41,5 @@ public void metod2(){
 
 
 }
+//class seviyesinde deklare edilen variablelere ister static olsun ister instancer olsun değer atama zorunlu değil...java hata vermez...
+//java belirlenmiş degerleri atar (default) string için null sayısal(integer) primitive icin o primitive bolean icin false char icin hiçliktir
