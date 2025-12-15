@@ -30,4 +30,14 @@ public class C04_InstanceVariableObjeIleKullan {
 
 
     }
+
+    public static void metod1(){
+
+
+    }
+
+    public  void metod2(){
+
+
+    }
 }
