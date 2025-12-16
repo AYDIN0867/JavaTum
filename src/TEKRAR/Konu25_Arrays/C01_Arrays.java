@@ -1,0 +1,60 @@
+package TEKRAR.Konu25_Arrays;
+
+import java.lang.reflect.Array;
+
+public class C01_Arrays {
+    public static void main(String[] args) {
+
+//Arrayler(diziler) java da ayni data turunden birden faza eleman barındırabilen
+        //objelerdir...
+//Kural1- bir array oluşturuken 2 sey deklare edilmek zorundadır...
+//A- içine konulacak elementelrin data turu...bir array in içinde farklı data turunde element olamaz
+
+int [] arr =new int[5];
+
+
+//B-içine kac element konulacağı(length)
+        //oluşturulan bir array in uzunlugu sabittir...degistirilmez...
+
+//bir array 2 sekilde deklare edilşr
+
+//A- int arr [] ;
+//B- int []  arr ;
+
+//3- bir array e 2 sekilde deger atanabilir;
+
+        //A- direk deger atanabilir int [] arr ={1,3,5,6,7,9}
+        //A- direk deger atanabilir int [] arr ={1,3,5,6,7,9}
+
+ //b- uzunlugu belirtilerek olusturulur ama elemanlara deger ataması yapılmaz...
+ //bu durumda java belirtilen uzunlukta ve defaul degerlee sahip bir array oluşturur
+ // int [] arr =new int [5];  [0,0,0,0,0]
+//bir array in length nasil bulunur...
+        int [] arrayy ={1,2,3,4,5};
+
+        System.out.println(arrayy.length);//5
+
+  //4 int deger koyabileceğimiz sayılar array i oluşturun...
+
+        int [] sayilar=new int[4];
+        System.out.println(arrayy);//[I@e9e54c2
+
+ // 5 isim koyabileceğimiz bir array oluşturun
+
+     String [] isimler=new String[5];
+
+// 2 boolean deger koyabileceğimiz bir array oluşturun
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+}
