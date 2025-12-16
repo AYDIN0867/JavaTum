@@ -45,10 +45,28 @@ int [] arr =new int[5];
 
 // 2 boolean deger koyabileceğimiz bir array oluşturun
 
+boolean [] sonuclar=new boolean[2];//[false,false]
+
+//icinde 56,67,23,97 degerleinin oldugu notlar array i oluşturun
+
+int [] notlar={56,67,23,97};
+
+//icinde mevsim isimlerinin oldugu mevsimler array i oluşturun
+
+   String [] mevsimler={"ilkbahar","Yaz","Sonbahar","Kıs"};
+
+//notlar array in deki 23 ^ü yazzdırın
+
+        System.out.println(notlar[2]);//23
+
+//mevsimler arrayindeki kıs i yazırın
+
+        System.out.println(mevsimler[3]);//kıs
 
 
+   //notlar array indeki 2. sayıyı 45 yapın
 
-
+   notlar[1]=45;
 
     }
 
