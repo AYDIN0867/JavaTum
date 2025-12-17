@@ -22,5 +22,8 @@ public class C09_MetodKullanma {
         System.out.println(C06_ElemanArama.harfAdetSayısıHesapla(barare, "a"));
         System.out.println(C06_ElemanArama.harfAdetSayısıHesapla(barare, "k"));
 
+       int [] olusturdum= C07_KullaniciyaArrayOlusturma.arrOlustur();
+        System.out.println(Arrays.toString(olusturdum));
+
     }
 }
