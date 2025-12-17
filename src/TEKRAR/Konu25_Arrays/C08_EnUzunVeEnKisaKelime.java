@@ -9,8 +9,8 @@ public class C08_EnUzunVeEnKisaKelime {
 
         String [] isimler={"hamza","esra","serhat","ali","cansu"," ibrahimhkl","can","yasemin"};
 
-        String enKısa="hamza";
-        String enUzun="hamza";
+        String enKısa=isimler[0];
+        String enUzun=isimler[0];
 
         for (int i = 0; i < isimler.length; i++) {
 
@@ -43,8 +43,8 @@ public class C08_EnUzunVeEnKisaKelime {
 
         //String [] isimler={"hamza","esra","serhat","ali","cansu"," ibrahimhkl","can","yasemin"};
 
-        String enKısa="hamza";
-        String enUzun="hamza";
+        String enKısa=isimler[0];
+        String enUzun=isimler[0];
 
         for (int i = 0; i < isimler.length; i++) {
 
@@ -62,7 +62,8 @@ public class C08_EnUzunVeEnKisaKelime {
 
         }
 
-
+        System.out.println("En kısa isim: " + enKısa);
+        System.out.println("En uzun isim: " + enUzun);
 
 
     }

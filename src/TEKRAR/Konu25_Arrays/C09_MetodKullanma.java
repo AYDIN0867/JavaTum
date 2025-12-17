@@ -25,5 +25,7 @@ public class C09_MetodKullanma {
        int [] olusturdum= C07_KullaniciyaArrayOlusturma.arrOlustur();
         System.out.println(Arrays.toString(olusturdum));
 
+        C08_EnUzunVeEnKisaKelime.enUzunEnKısaYazdır(barare);
+
     }
 }
