@@ -1,6 +1,7 @@
 package TEKRAR.Konu25_Arrays;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class C01_Arrays {
     public static void main(String[] args) {
@@ -68,11 +69,27 @@ int [] notlar={56,67,23,97};
 
    notlar[1]=45;
 
+   //ilkbahar,yaz,sonbahar,kıs
+   // mevsimler array'inin 5.elementini yazdırın....
+       // System.out.println(mevsimler[4]);//sınırları bilmez 4 . indeksi var mı yok mu bilmez...
+        //çalıştırınca hata verir.>ArrayoutOfBoundIndex hatası verir
+      //mevsimler array ine 5.mevsim olarak birmevsim yazdığımızdada hata verir
+
+     // mevsimler[4]="Tatil";//yazdık burda hata vermedi ama çalıştırdığımızda   >ArrayoutOfBoundIndex hatası verir
+
+        //isimler array i ni yazdıralım...
+        System.out.println(Arrays.toString(isimler)); //[null, null, null, null, null]
+
+        System.out.println(Arrays.toString(notlar));//[56, 45, 23, 97] virgül ve boşluk elementlere değil array e aittir..
+
+
+
+
+
+
+
+
+
     }
-
-
-
-
-
 
 }
