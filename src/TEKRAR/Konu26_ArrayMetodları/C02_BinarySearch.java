@@ -31,8 +31,8 @@ public class C02_BinarySearch {
 
       //eger sort metodu yapmadan binarysearch yapılınca bazen bilir bazen hatalı sonuc verir
 
-
-
+Arrays.sort(harfler);
+        System.out.println(Arrays.toString(harfler)); //[d, k, p, t, z]
 
 
     }
