@@ -1,32 +1,73 @@
 package TEKRAR.Konu27_MultiDimensionalArrays;
 
+import java.util.Arrays;
+
 public class C03_TumElementleriGözdenGecirme {
     public static void main(String[] args) {
 
-        int [][] arr={{2,3,7},{3,5},{4},{1,2,3,6,8}};
+        int[][] arr = {{2, 3, 7}, {3, 5}, {4}, {1, 2, 3, 6, 43}};
 
         //arr deki cift sayiların toplamını yazdirin...
 
-        int toplam=0;
+        int toplam = 0;
 
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = 0; j < arr[i].length; j++) {
 
-                if (arr[i][j]%2==0){
+                if (arr[i][j] % 2 == 0) {
 
-                    toplam+=arr[i][j]; //arr deki çift sayıların toplamı :22
+                    toplam += arr[i][j]; //arr deki çift sayıların toplamı :14
                 }
 
             }
 
         }
 
-        System.out.println("arr deki çift sayıların toplamı :"+toplam);
+        System.out.println("arr deki çift sayıların toplamı :" + toplam);
+
+
+//arr deki tek sayılardan en buyuk olanı yazdırın....
+// arr={{2,3,7},{3,5},{4},{1,2,3,6,8}};
+        int enbuyuk = Integer.MIN_VALUE;
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = 0; j < arr[i].length; j++) {
+
+                if (arr[i][j] % 2 != 0 && arr[i][j] > enbuyuk) {
+
+                    enbuyuk = arr[i][j];
+
+                }
+
+            }
+
+        }
+
+        System.out.println("arr deki buyuk deger " + enbuyuk + " sayısıdır... ");
+//arr deki buyuk deger 43 sayısıdır... .
+
+
+//arr deki tum sayıları 1 artırın....
+
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = 0; j < arr[i].length; j++) {
+
+                arr[i][j]+=1;
+
+
+
+            }
+        }
+
+        System.out.println("arr deki tüm sayıları bir artırınca..."+ Arrays.deepToString(arr));
+//arr deki tüm sayıları bir artırınca...[[3, 4, 8], [4, 6], [5], [2, 3, 4, 7, 44]]
 
 
 
 
 
     }
+
 }
