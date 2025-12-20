@@ -9,7 +9,7 @@ public class C03_TumElementleriGözdenGecirme {
 
         //arr deki cift sayiların toplamını yazdirin...
 
-        int toplam = 0;
+        int ciftSayıToplam = 0;
 
         for (int i = 0; i < arr.length; i++) {
 
@@ -17,14 +17,14 @@ public class C03_TumElementleriGözdenGecirme {
 
                 if (arr[i][j] % 2 == 0) {
 
-                    toplam += arr[i][j]; //arr deki çift sayıların toplamı :14
+                    ciftSayıToplam += arr[i][j]; //arr deki çift sayıların toplamı :14
                 }
 
             }
 
         }
 
-        System.out.println("arr deki çift sayıların toplamı :" + toplam);
+        System.out.println("arr deki çift sayıların toplamı :" + ciftSayıToplam);
 
 
 //arr deki tek sayılardan en buyuk olanı yazdırın....
@@ -65,6 +65,31 @@ public class C03_TumElementleriGözdenGecirme {
 //arr deki tüm sayıları bir artırınca...[[3, 4, 8], [4, 6], [5], [2, 3, 4, 7, 44]]
 
 
+
+//arr deki tum tek sayilari ve çift sayilari ayri ayri toplayıp
+// ciftSayilarToplami-tekSayilarToplamini yazdirin...
+//.[[3, 4, 8], [4, 6], [5], [2, 3, 4, 7, 44]]
+ciftSayıToplam=0;
+int tekSayiToplam=0;
+
+        for (int i = 0; i < arr.length; i++) {
+
+            for (int j = 0; j < arr[i].length; j++) {
+
+                if (arr[i][j]%2==0){
+
+                    ciftSayıToplam+=arr[i][j];
+                }else {
+
+                    tekSayiToplam+=arr[i][j];
+                }
+
+            }
+
+
+        }
+        System.out.println("arr deki : "+ "çift sayılar toplamı - tek sayılar toplamı :" + (ciftSayıToplam-tekSayiToplam));
+       //arr deki : çift sayılar toplamı - tek sayılar toplamı :54
 
 
 
