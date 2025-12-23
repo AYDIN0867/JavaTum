@@ -49,7 +49,34 @@ public class C03_IstenenElementleriKullanma {
         System.out.println(sayilar);//[3, 6, 5, 1, 4, 0]
 
 
+     //sayilar listesinde 4. index deki elementi 11 yapın...
+        sayilar.set(4,11);
+        System.out.println(sayilar);//[3, 6, 5, 1, 11, 0]
 
+        sayilar.set(0,12);
+        System.out.println(sayilar);//[12, 6, 5, 1, 11, 0]
+
+        //sayilar listesindeki 4. index'e 23 ekleyin...
+
+        sayilar.set(4,23);
+        System.out.println(sayilar); //[12, 6, 5, 1, 23, 0]
+        //set 4 indeksteki 11 i sildi yerine 23 koydu
+
+        sayilar.add(4,12);
+        System.out.println(sayilar);//add ise 4. indeksteki 23 ü silmeden
+        //23 ü iterek önüne 12 yi ekleyecek
+        //[12, 6, 5, 1, 12, 23, 0]
+
+        System.out.println(sayilar.get(3));//1
+
+/*
+add () yeni bir element ekler,element sayısı bir artar
+ve eklendiği indeksden sonraki elementler 1 geriye itilir...
+
+set() yeni element eklmez,listenin eleman sayısı aynı kalır
+sadece verilen index deki element update edilmiş olur...
+
+ */
 
 
 
