@@ -11,6 +11,10 @@ public class C04_TumElementleriArtırma {
         //sayilar listesindeki tum elementleri 4 artırın
 
 
+        List<Integer> kayilar=new ArrayList<>(Arrays.asList(5,6,1,13,3));
+        System.out.println(elementleriArtır(kayilar, 4)); //[9, 10, 5, 17, 7]
+
+
         for (int i = 0; i < sayilar.size(); i++) {
 
             int eskiDeger=sayilar.get(i);
@@ -24,7 +28,27 @@ public class C04_TumElementleriArtırma {
 
     }
 
-  //
+  //verilen Integer bir listedeki tum elementleri
+  //istenen bir deger kadar artırıp listenin son halini donduren
+  //bir metod olusturun
+
+  public static  List<Integer> elementleriArtır(List<Integer> sayilar,int artışMiktari){
+
+
+      for (int i = 0; i < sayilar.size(); i++) {
+
+          int eskiDeger=sayilar.get(i);
+          sayilar.set(i,eskiDeger+artışMiktari);
+
+
+
+      }
+
+
+
+      return sayilar;
+
+  }
 
 
 }
