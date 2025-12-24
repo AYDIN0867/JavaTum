@@ -32,6 +32,22 @@ public class C06_SonucVsReturn {
         System.out.println(isimler.remove("Ali"));//false yokki sileiym diye false donuyor....
 
 
+        //isimler listesinden 2. index deki elemeti silin
+
+        System.out.println(isimler.remove(2));//delile ulaşacağız...//Ayşe
+        System.out.println(isimler);//[Veli, Cemil, Fatma, Hatice] silindiğini görmüş olduk
+
+        // sayılar listesinden 3 .indeksdeki elementi silin....
+        System.out.println(sayilar.remove(3));//delilini gorelim //9
+        System.out.println(sayilar);//bu komutlada silindiğini ispat ediyoruz ki [4, 6, 5, 3] yazıyor
+
+
+        // sayilar listesinden 4 ü silin 4. indeksdeki eleemnti değil doğrudan
+        // 4 ü silin dendiğinde obje oluştururuz
+
+        Integer silinecekSayi=4;
+        System.out.println(sayilar.remove(silinecekSayi));//true
+        System.out.println(sayilar);//[6, 5, 3]
 
 
     }
