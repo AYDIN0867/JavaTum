@@ -15,7 +15,21 @@ public class C06_SonucVsReturn {
         System.out.println(sayilar);//[4, 6, 1, 9, 3]
 
         //sayilar listesinden 2. indeksdeki elementi 5 yapın...
+        //sayilar.set(2,5);
+        //System.out.println(sayilar); //[4, 6, 5, 9, 3] öncekinde 2. indekste 1 varken şimdi 5 oldu...
+       //metod işlemi yapar delil yazdırmaktır...normalde böyle yapılır...
 
+        System.out.println(sayilar.set(2, 5));//siline  elemeti gösterir [1]
+        System.out.println(sayilar); //[4, 6, 5, 9, 3]
+
+
+        //isimler listesinden Aliyi silin...
+        System.out.println(isimler);//[Ali, Veli, Cemil, Ayşe, Fatma, Hatice]
+
+        isimler.remove("Ali");
+        System.out.println(isimler); //[Veli, Cemil, Ayşe, Fatma, Hatice]
+        //deliline bakalım
+        System.out.println(isimler.remove("Ali"));//false yokki sileiym diye false donuyor....
 
 
 
