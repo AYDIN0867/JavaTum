@@ -7,6 +7,7 @@ public class C03_TamBolenSayılarListesi {
     public static void main(String[] args) {
 
         System.out.println(tambolenSayilar(6));//[1, 2, 3, 6]
+        System.out.println(tambolenSayilar(50));//[1, 2, 5, 10, 25, 50]
 
 
         // Verilen pozitif bir tamsayıyı,
@@ -14,6 +15,22 @@ public class C03_TamBolenSayılarListesi {
         //bir metod olusturun...
 
 
+        /*
+        tamnolenSayilar method 'unu kullnarak 2 basamaklı
+        asal sayilari yazdirin......
+         */
+
+
+        for (int i = 10; i <100 ; i++) {
+
+            int tamBolenSayısı=tambolenSayilar(i).size();
+
+            if (tamBolenSayısı==2){
+
+                System.out.println(i+ " ");
+            }
+
+        }
 
     }
 
