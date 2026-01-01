@@ -55,6 +55,7 @@ public class C05_FibonacciSayilariniYazdir {
                 ikiOncekiEleman = fibohaciSerisi.get(i-2);
 
             }
+            System.out.println(fibohaciSerisi);
 
 
         }
