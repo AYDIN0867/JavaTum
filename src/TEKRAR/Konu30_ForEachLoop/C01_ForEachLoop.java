@@ -34,10 +34,40 @@ int  [] arr ={3,4,5,2,3,4,5,1,2,3};
 
 toplam=0;
 
+for(int each:arr){
+
+    toplam+=each;
+}
 
 
+        System.out.println("for each loop ile toplam "+ toplam);
+//for each loop ile toplam 32
 
+        //sayılar listesindeki çift sayıların toplamı
+toplam=0;
+        for (int i = 0; i < sayilar.size(); i++) {
 
+            if (sayilar.get(i)%2==0){
+
+                toplam+=sayilar.get(i);
+            }
+
+        }
+
+        System.out.println("for loop ile çift sayılar toplamı"+ toplam);
+
+        toplam=0;
+
+       for(int each:sayilar){
+
+           if (sayilar.get(each)%2==0){
+
+               toplam+=each;
+
+           }
+       }
+
+        System.out.println("for each loop ile listedeki çift sayıların toplamı" +toplam);
 
     }
 }
