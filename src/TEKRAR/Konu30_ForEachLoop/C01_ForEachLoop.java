@@ -60,7 +60,7 @@ toplam=0;
 
        for(int each:sayilar){
 
-           if (sayilar.get(each)%2==0){
+           if (each%2==0){
 
                toplam+=each;
 
@@ -68,6 +68,23 @@ toplam=0;
        }
 
         System.out.println("for each loop ile listedeki çift sayıların toplamı" +toplam);
+
+
+       //sayılar lsitesindeki en buyuk  elementi yazdırın
+
+        int enBuyukElement=Integer.MIN_VALUE;
+//int enBuyukElement=sayilar.get(0);
+
+        for(int each:sayilar){
+
+            if (each>enBuyukElement){
+
+                enBuyukElement=each;
+            }
+
+        }
+
+        System.out.println("en buyuk element "+ enBuyukElement);
 
     }
 }
