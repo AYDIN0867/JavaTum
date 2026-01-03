@@ -86,5 +86,27 @@ toplam=0;
 
         System.out.println("en buyuk element "+ enBuyukElement);
 
+
+        /*
+
+        1-for loop baslangıc ve bitis biliniyorsa, yani tekrar sayısı biliniyorsa
+
+        2- while loop tekrar sayısı belli değilse
+
+        3- do-while looop
+        loop bodysi en az bir defa çalışssın isteniyorsa
+        yani kullnaıcıdan alınanda hata olmasını istemiyorum denirse
+
+        4- for each loop birden fazla eleman barındıran yapılardaki
+        TUM ELEMENTLER SIRALAMA OLMAKSIZIN (index kullanmadan) bize getirir
+
+        spesifik bir kullanım icin oluşturulmuştur
+        ama o kullanımda çok idealdir...
+
+
+
+         */
+
+
     }
 }
