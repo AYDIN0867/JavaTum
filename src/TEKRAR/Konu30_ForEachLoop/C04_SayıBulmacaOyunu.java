@@ -71,6 +71,7 @@ for(int each:tahminlerListesi){
 
     if (fark<enYakınTahmininSayıİleFarki){
         tutulanSayiyaEnYakinTahmin=each;
+        enYakınTahmininSayıİleFarki=fark;
     }
 }
 
