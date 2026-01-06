@@ -32,7 +32,19 @@ public class C01_Constructor {
         ve olusturuldugu class'daki ozellikleri nasıl objeye yuklendigini gorecegiz...
 
 
+         */
 
+        Scanner                       scanner1        =                  new                    Scanner(System.in);
+  //Class ismi                      obje ismi      assigment sign       keyword                    Constructor(isimleri Class ismi ile aynıdır9
+
+
+        List   <Integer>   sayilar1     =       new          ArrayList<>();
+
+
+        /*
+
+      Java'da bir obje olusturup ilk deger atamasi yapmak icin
+      MUTLAKA bir Constructor ÇALIŞMALIDIR...
 
          */
 
