@@ -27,6 +27,19 @@ C02_Okul ogrenci2;
         // bir obje icin constructor calışmazsa
         //o obje oluşturulup ilk deger ataması (initialize) YAPILAMAZ
 
+C02_Okul ogrenci3=null;
+
+       // System.out.println(ogrenci3.ogrgIsim);
+//null bir değer değildir...constructor çalışmadı...
+//çalıştırılınca null point exception verir...
+
+  // C02_Okul class ından deklare etmeden bir obje oluşturup kullanlım
+
+
+        System.out.println(new C02_Okul().ogrgIsim);
+//isim atanmamis
+
+        new C02_Okul().ogrgIsim="Mehmet";
 
 
 
