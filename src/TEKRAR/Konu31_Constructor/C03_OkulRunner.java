@@ -40,6 +40,17 @@ C02_Okul ogrenci3=null;
 //isim atanmamis
 
         new C02_Okul().ogrgIsim="Mehmet";
+//obje oluştu ama sadece 42. satır için oluşturmuştur
+// sonraki satırlar icin bu objenin çalışması mümkün değildir
+
+
+/*
+obje deklre edilmeden contructor çalışırsa sadece o satır için obje çalışır
+objenin bir ismi olmaz...
+
+ */
+
+
 
 
 
