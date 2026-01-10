@@ -15,5 +15,25 @@ public class C02_DefaultConstructorToStringKulanımı {
         System.out.println(araba1.marka);//Toyota
 
 
+        //olusturdugunuz objeye istediginiz degerleri atayın.... ve tum ozellikleri tekrar yazdırın
+
+        araba1.marka="Opel";
+        araba1.model="Corsa";
+        araba1.renk="Mavi";
+        araba1.yil=2005;
+        araba1.fiyat=2000;
+
+
+        System.out.println(araba1.fiyat);//2000
+        System.out.println(araba1.model);// Corsa
+        System.out.println(araba1.yil);//2005
+        System.out.println(araba1.renk);
+        System.out.println(araba1.marka);
+
+
+
+
+
+
     }
 }
