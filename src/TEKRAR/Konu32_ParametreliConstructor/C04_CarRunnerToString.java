@@ -15,7 +15,16 @@ public class C04_CarRunnerToString {
         System.out.println(car1);
        //C03_Car{marka='marka atanmamis', model='model atanmamis', renk='model atanmamis', yil=1900, fiyat=0}
 
+//oluşturdugumuz objeye kendi istediğimiz dgerleri atayalım
 
+        car1.renk="siyah";
+        car1.yil=2014;
+        car1.fiyat=10000;
+        car1.marka="Audi";
+
+        System.out.println(car1);
+
+        // yeni bir obje oluşturalım
 
 
 
