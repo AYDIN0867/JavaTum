@@ -49,7 +49,11 @@ return type olmamalıdır...
         //çünkü ismi class ismi ile aynı değil
         //metod da diyemeyiz çünkü return type yok
         //o zmaan bu nedir bu haatdır CTE oluşur kod çalışmaz
+    //constructorlar static olarak tanımlanamazlar....
  //   }
+
+
+
 
 
 }
