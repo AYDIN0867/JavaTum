@@ -43,6 +43,10 @@ C05_Okul ogrenci2=new C05_Okul("Veli Cem","Balgat","054345465656");
         System.out.println(ogrenci4);
         //C05_Okul{ogrIsim='Melih Yan', ogrAdres='Kizilay', ogrTel='098998989', ogrSube='9-D'}
 
+
+
+
+
     }
 
 }
