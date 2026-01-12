@@ -35,10 +35,14 @@ C05_Okul ogrenci2=new C05_Okul("Veli Cem","Balgat","054345465656");
         System.out.println(ogr3);
 //C05_Okul{ogrIsim='Ayse Han', ogrAdres='Yildiz', ogrTel='0878898', ogrSube='sube atanmamis'}
 
+
+        //tüm bilgileri parametre olarak gonderebileceğimiz bir constructor oluşturup
+        //oluşturdugumuz yeni constructor ile bir obje olusturun ve tum özellikleri
+        C05_Okul ogrenci4=new C05_Okul("Melih Yan","Kizilay","098998989","9-D");
+
+        System.out.println(ogrenci4);
+        //C05_Okul{ogrIsim='Melih Yan', ogrAdres='Kizilay', ogrTel='098998989', ogrSube='9-D'}
+
     }
-
-
-
-
 
 }

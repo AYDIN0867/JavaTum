@@ -43,4 +43,14 @@ public double notOrtalması(double not1, double not2){
     ogrTel=telefon;
     }
 
+ C05_Okul(String isim,String adres,String telefon,String sube ){
+
+    ogrIsim=isim;
+    ogrAdres=adres;
+    ogrTel=telefon;
+    ogrSube=sube;
+
+ }
+
+
 }
