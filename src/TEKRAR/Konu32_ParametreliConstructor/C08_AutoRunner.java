@@ -21,6 +21,8 @@ C07_Auto oto2=new C07_Auto("mercedes","e200");
         System.out.println(oto4);
 //C07_Auto{marka='Toyota', model='Corsa', renk='kırmızı', yil=2010, fiyat=7000}
 
+
+
     }
 
 }
