@@ -39,9 +39,6 @@ ancak class ismi ile ayni olsa da CTE vermez...
 
     }
 
-
-
-
     void C01_ConstructorCallDeneme(){System.out.println("parametresiz metod calisti...");
     C01_ConstructorCallDeneme(3);
     }
