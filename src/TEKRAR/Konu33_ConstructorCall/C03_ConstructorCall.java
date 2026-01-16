@@ -22,6 +22,10 @@ C03_ConstructorCall(int sayi, String name, char a){
     this.sayi=sayi;
 
 }//3
+//this(parametreler) constructor un ilk satırında yazılmalıdır....
+
+
+
 
 
 
@@ -42,7 +46,10 @@ C03_ConstructorCall(int sayi, String name, char a){
         System.out.println(obj2.isim);//KEMAL
         System.out.println(obj2.chr);//%
 
-
+        C03_ConstructorCall obj3=new C03_ConstructorCall(22,"Mehmet",'r');
+        System.out.println(obj3.sayi);//23
+        System.out.println(obj3.isim);//Esra
+        System.out.println(obj3.chr);//%
 
 
 
