@@ -8,6 +8,7 @@ int sayi=40;
 C02_ConstructorCall(){
     System.out.println("parametresiz constructor calisti...");
     C02_ConstructorCall();
+    //eğer isim yazıyorsa constructor olamaz..
 }
 
 C02_ConstructorCall(int sayi){
@@ -26,8 +27,11 @@ C02_ConstructorCall(String isim){
 
     public static void main(String[] args) {
 
-
-
+C02_ConstructorCall obj1=new C02_ConstructorCall();//new keyword ile
+        //parametresiz constructor çalışacaktır...
+C02_ConstructorCall obj2=new C02_ConstructorCall(3);
+        System.out.println(obj2.isim);
+        System.out.println(obj2.sayi);
     }
 
 void  C02_ConstructorCall(){System.out.println("parametresiz metod calisti...");
