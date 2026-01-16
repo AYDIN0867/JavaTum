@@ -26,5 +26,7 @@ public C04_ConstructorCall(String isim, int yas){
         System.out.println("isim :" + obj1.isim+ "yas :" + obj2.yas);
 
 
+
+
     }
 }
