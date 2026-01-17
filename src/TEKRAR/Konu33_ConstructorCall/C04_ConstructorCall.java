@@ -28,5 +28,8 @@ public C04_ConstructorCall(String isim, int yas){
 
 
 
+
+
+
     }
 }
