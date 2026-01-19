@@ -26,6 +26,13 @@ public class Rope {
        //constructor çalışmadıgı için obje oluşturulmamış oldugundan java rope 2 yi görmezden gelir
         rope2.play();
 
+//rope2 yi yazırmak istediğimşizde run time error verecektir çünkü oluşturulmadı ki...
+//kullanmamıza gecici izin verir ama yazdırmaz yani çalıştırtmaz
+
+
+
+
+
 
 
     }
