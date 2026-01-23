@@ -28,9 +28,14 @@ public class C06_Deneme {
         System.out.println(obj2.yas+","+obj2.sayi+","+sonuc);
 
 
+// main metoddan başlanır
+// parametresiz constructor ile obje oluşturulmuş
+// için e girilemden obj1 oluşturulur
+// instance variablenin kopyası alınıp objeye yapıştırılır
+
+
 
 
     }
-
 
 }
