@@ -1,4 +1,4 @@
-package TEKRAR.StaticKeyWord;
+package TEKRAR.Konu34_StaticKeyWord;
 
 public class C03_HastaneRunner {
     public static void main(String[] args) {
