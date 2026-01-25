@@ -22,6 +22,9 @@ public class C01_PassByValue {
 //        String  girilenCumle=scanner.nextLine();
 
         isimDüzenleYazdir("pelin su yılmaz denir");
+        String girilenCumle="Ali oto bakma";
+        System.out.println(girilenCumle);;//Ali oto bakma
+        isimDüzenleYazdir(girilenCumle); //ismin düzenlenmiş hali : Ali Oto Bakma
 
     }
 
