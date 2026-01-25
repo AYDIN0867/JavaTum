@@ -24,13 +24,13 @@ public class C01_PassByValue {
         isimDüzenleYazdir("pelin su yılmaz denir");
         String girilenCumle="Ali oto bakma";
         System.out.println(girilenCumle);;//Ali oto bakma
-        isimDüzenleYazdir(girilenCumle); //ismin düzenlenmiş hali : Ali Oto Bakma
+        buyukHarfCevir(girilenCumle); //ismin düzenlenmiş hali : Ali Oto Bakma
 
     }
 
     public static void buyukHarfCevir(String girilenCumle){
         girilenCumle=girilenCumle.toUpperCase();
-        System.out.println(girilenCumle);
+        System.out.println("metodda cumle : "+ girilenCumle);
 
     }
 
@@ -55,5 +55,14 @@ public class C01_PassByValue {
 
 
     }
+
+    /*
+    bir variable yi argument olarak kullanıp
+    baska bir metod'a gonderdiğimizde
+    java variablenin kendisini değil valuesini gönderrir...
+
+
+     */
+
 
 }
