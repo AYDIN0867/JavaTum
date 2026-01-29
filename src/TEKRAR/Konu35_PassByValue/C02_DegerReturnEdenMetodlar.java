@@ -20,6 +20,7 @@ public class C02_DegerReturnEdenMetodlar {
         String soyİsim=scanner.nextLine();
 
         System.out.println(ismiDuzenle(isim, soyİsim));
+        //System.out.println(yeniİsim); yeniİsim hata verir scopu başka...
 
 
     }
@@ -28,7 +29,7 @@ public class C02_DegerReturnEdenMetodlar {
 
         isim=isim+" "+soyİsim;
 
-        List<String> isimlerList= Arrays.asList(isim.split(""));
+        List<String> isimlerList= Arrays.asList(isim.split(" "));
         String yeniIsim="";
 
         for (int i = 0; i < isimlerList.size(); i++) {
