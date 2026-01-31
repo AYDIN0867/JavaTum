@@ -12,6 +12,7 @@ public class C04_IndirimliFiyatYazdirma {
       indirimliFiyatYazdir10(fiyat);//%10 indirimli fiyat : 180.0
       indirimliFiyatYazdir20(fiyat);//%20 indirimli fiyat : 160.0
       indirimliFiyatYazdir10(fiyat);//%10 indirimli fiyat : 180.0
+      indirimliFiyatYazdir40(fiyat);//%40 indirimli fiyat : 120.0
 
 
     }
