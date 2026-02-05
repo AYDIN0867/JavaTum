@@ -24,6 +24,10 @@ public class C05_BirdenFazlaElemanBarindıranYapılar {
 
         birArtirYazdir(arr);// elemanları ertırdık...[4, 7, 9]
         System.out.println("main metodda arr"+Arrays.toString(arr));//main metodda arr[4, 7, 9]
+yeniArrAta(arr); //yeni array atadım[8, 63, 16, 57, 65]
+
+        //metod da arr nin kendisine atama oldumu EVET
+        // JAAV PASSBYVALUE yeni array i kabul etemz
 
 
     }
@@ -45,7 +49,7 @@ public class C05_BirdenFazlaElemanBarindıranYapılar {
 // yeni bir array i yazdiran metod olusturun
 
 
-public static void elementleriBirArtir(int [] arr){
+public static void yeniArrAta(int [] arr){
 
 int [] yeniArr=new int [5];
 
@@ -57,6 +61,7 @@ int [] yeniArr=new int [5];
 
     }
      arr=yeniArr;
+
     System.out.println("yeni array atadım" + Arrays.toString(arr));
 
 
