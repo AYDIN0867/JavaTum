@@ -1,6 +1,7 @@
 package TEKRAR.Konu35_PassByValue;
 
 import java.util.Arrays;
+import java.util.Random;
 
 public class C05_BirdenFazlaElemanBarindıranYapılar {
     public static void main(String[] args) {
@@ -40,7 +41,26 @@ public class C05_BirdenFazlaElemanBarindıranYapılar {
 
     }
 
+//array' e 5 uzunlugunda ve icinde 100 den kucuk rastgele pozitif sayilar bulunan
+// yeni bir array i yazdiran metod olusturun
 
+
+public static void elementleriBirArtir(int [] arr){
+
+int [] yeniArr=new int [5];
+
+    Random random=new Random();
+    for (int i = 0; i < yeniArr.length; i++) {
+
+
+        yeniArr[i]=random.nextInt(100);
+
+    }
+     arr=yeniArr;
+    System.out.println("yeni array atadım" + Arrays.toString(arr));
+
+
+}
 
 
 }
