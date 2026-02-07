@@ -9,6 +9,11 @@ public class C02_StringAtamaYapılırsa {
 
         System.out.println(str); //Karrtaval
 
+//Java da iki turlu String olusturulabilir...
+//eşitliğin diğer yanında sadece tırnak varsa havuzdaddir
+//değilse havuzda değildir...
+
+
 
 
 
