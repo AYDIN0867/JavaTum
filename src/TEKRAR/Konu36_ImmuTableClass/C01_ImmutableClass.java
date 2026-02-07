@@ -21,8 +21,10 @@ public class C01_ImmutableClass {
         //mutable Classlarda metod ile yapılan değğişiklikm kalıcı olur
         System.out.println(isimler);//[Cansu, Asuman, Hamza]
         isimler.add("Ali");
-        isimler.remove(0);
-        System.out.println(isimler);//[Asuman, Hamza, Ali]
+        System.out.println(isimler.remove(0));//Cansu
+      System.out.println(isimler);//[Asuman, Hamza, Ali]
+
+
 
 
 
