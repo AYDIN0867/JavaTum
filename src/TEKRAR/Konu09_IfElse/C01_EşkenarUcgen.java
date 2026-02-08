@@ -1,7 +1,4 @@
-package TEKRAR.Konu09_IfElse;
-
-import java.util.Scanner;
-
+package TEKRAR.Konu09_IfElse;import java.util.Scanner;
 public class C01_EşkenarUcgen {
 
     public static void main(String[] args) {

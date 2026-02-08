@@ -1,5 +1,7 @@
 package TEKRAR.Konu36_ImmuTableClass;
 
+import java.time.LocalDateTime;
+
 public class C03_StringPool {
     public static void main(String[] args) {
         String str1="Ali";//havuzda
@@ -50,7 +52,8 @@ public class C03_StringPool {
         System.out.println(str3==str4);//false
 
 
-
+        LocalDateTime date=LocalDateTime.now();
+        System.out.println(date);//2026-02-07T23:44:47.849425600
 
     }
 
