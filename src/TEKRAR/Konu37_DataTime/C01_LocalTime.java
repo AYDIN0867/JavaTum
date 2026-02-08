@@ -30,13 +30,18 @@ public class C01_LocalTime {
 
 String str="";
 
+LocalTime basalangıc=LocalTime.now();
         for (int i = 0; i < 150000; i++) {
 
             str+=i;
         }
+LocalTime bitis=LocalTime.now();
+        System.out.println("saat"+saat);//17:56:42.752212700
+        System.out.println("baslangıc"+basalangıc);//17:56:42.752212700
+        System.out.println("bitis"+bitis);//17:56:50.938251800
 
-        System.out.println(saat);//17:51:25.287195100
-
-
+//eger koddaki 2 satırın calısması arasında gecen zamanı bulmak
+// isterseniz o iki satırda 2 adet localTime objesi olusturup
+// bu zamanlar arasındaki farkı bulmalıyız...
     }
 }
