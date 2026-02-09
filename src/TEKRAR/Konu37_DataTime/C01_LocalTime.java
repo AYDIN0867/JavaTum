@@ -61,8 +61,12 @@ Duration : PT8.7679965S
 
  */
 
+        //3- toSecondOfDay() veya toNanoOfDay () ile aradki farkı bulabiliriz
 
+        System.out.println(basalangıc.toSecondOfDay());
+        System.out.println(basalangıc.toNanoOfDay());//83269431283800
 
+        System.out.println(bitis.toNanoOfDay() - basalangıc.toNanoOfDay());
 
     }
 }
