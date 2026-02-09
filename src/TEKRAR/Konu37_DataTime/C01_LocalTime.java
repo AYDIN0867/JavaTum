@@ -1,5 +1,6 @@
 package TEKRAR.Konu37_DataTime;
 
+import java.time.Duration;
 import java.time.LocalTime;
 
 public class C01_LocalTime {
@@ -21,7 +22,7 @@ public class C01_LocalTime {
         System.out.println(saat);
 //17:47:29.585916300
 
- //get...() localTime degerindeki saat dakika,saniye veya nanosaniye bizegetiri
+ //get...() localTime degerindeki saat dakika,saniye veya nanosaniye bize getirir
 
         System.out.println(saat.getHour());//17
 
@@ -43,5 +44,25 @@ LocalTime bitis=LocalTime.now();
 //eger koddaki 2 satırın calısması arasında gecen zamanı bulmak
 // isterseniz o iki satırda 2 adet localTime objesi olusturup
 // bu zamanlar arasındaki farkı bulmalıyız...
+
+   //1- get metodları ile zaman arasındaki farkı bulabiliriz
+
+        System.out.println(bitis.getSecond()-basalangıc.getSecond());
+//tam sureyi belirlemek için
+// saat,dakika,saniye ve nanosaniye değişimleri alan bir kod yazılabilir
+
+//2- Duration.between veya toNanoDay ile aradaki farkı bulabilriz
+
+        System.out.println("Duration : "+Duration.between(basalangıc, bitis)); //23
+/*
+bitis23:04:47.442332800
+9
+Duration : PT8.7679965S
+
+ */
+
+
+
+
     }
 }
