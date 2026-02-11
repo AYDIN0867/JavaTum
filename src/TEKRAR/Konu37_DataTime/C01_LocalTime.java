@@ -68,5 +68,8 @@ Duration : PT8.7679965S
 
         System.out.println(bitis.toNanoOfDay() - basalangıc.toNanoOfDay());
 
+        System.out.println(saat.withHour(10)); //10:12:33.369443900
+
+
     }
 }
