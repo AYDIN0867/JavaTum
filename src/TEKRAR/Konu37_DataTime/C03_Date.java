@@ -47,7 +47,7 @@ LocalDate dogumTarihi=LocalDate.of(1993,11,13);
         System.out.println(yil1900.isLeapYear()); //false
 
         System.out.println(tarihJapan.getDayOfYear()); //44
-
+        System.out.println(tarihJapan.getMonth());//FEBRUARY
 
     }
 }
