@@ -29,16 +29,10 @@ public class C04_LocalDateTime_DataTimeFormatter {
         DateTimeFormatter format1=DateTimeFormatter.ofPattern("dd.MM.yyyy EEEE");
 
 /*
-
 d: basta 0 varsa onu yazmadan gun numarası
 dd: tek haneli gunlei 01 gibi basina sıfır yazarak gun numarası
 DDD: yılın kacıncı gunu oldugunu yazar
 E,EE,EEE : gün isminin tamamını yazar...
-
-
-
-
-
  */
 
         System.out.println(ldt.format(format1));//13.02.2026 Cuma
