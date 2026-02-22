@@ -39,11 +39,15 @@ String Builder 3 farklı sekilde olusturulabilir...
 
         StringBuilder sb3=new StringBuilder("Umut");
 
-        System.out.println("sb:  "+sb3 );
-        System.out.println("sb nin uzunlugu:  "+sb3.length());
-        System.out.println("sb nin kapasitesi:  "+sb3.capacity());
+        System.out.println("sb:  "+sb3 );//umut
+        System.out.println("sb nin uzunlugu:  "+sb3.length());//4
+        System.out.println("sb nin kapasitesi:  "+sb3.capacity());//20
 
+StringBuilder stb=new StringBuilder(7);
+stb.append("Ali");
+stb.append("Kemal");
 
+//String builder
 
 
     }
