@@ -47,7 +47,21 @@ StringBuilder stb=new StringBuilder(7);
 stb.append("Ali");
 stb.append("Kemal");
 
-//String builder
+//String builder kapasite*2 +2 kadar genişletme yapar...
+
+
+StringBuilder stb2=new StringBuilder(7);
+
+stb2.append("Cem");
+        System.out.println("stb2:  "+stb2);//Cem
+        System.out.println("stb2 nin uzunlugu:  "+stb2.length());//3
+        System.out.println("stb2 nin kapasitesi:  "+stb2.capacity());//7
+
+        stb2.append(" BAKIR");
+        System.out.println("stb2:  "+ stb2);//Cem BAKIR
+        System.out.println("stb2 nin uzunlugu:  "+stb2.length());//9
+        System.out.println("stb2 nin kapasitesi:  "+stb2.capacity());//16
+
 
 
     }
