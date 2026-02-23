@@ -18,6 +18,13 @@ public class C02_StringBuilderMetodlari {
         String metin="Hayat güzeldir";
         System.out.println(metin.replace("Hayat","Umut"));//Umut güzeldir
 
+sb.replace(8,13,"*");
+        System.out.println(sb);//UmutHaya*true topu
+
+sb.reverse();
+        System.out.println(sb); //upot eurt*ayaHtumU
+        System.out.println(sb.reverse()); //UmutHaya*true topu
+
 
 
 
