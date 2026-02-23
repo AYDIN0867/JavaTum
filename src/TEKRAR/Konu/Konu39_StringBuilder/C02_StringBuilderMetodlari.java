@@ -15,6 +15,10 @@ public class C02_StringBuilderMetodlari {
         System.out.println(sb);//UmutHayattır3true topu
 
 
+        String metin="Hayat güzeldir";
+        System.out.println(metin.replace("Hayat","Umut"));//Umut güzeldir
+
+
 
 
 
