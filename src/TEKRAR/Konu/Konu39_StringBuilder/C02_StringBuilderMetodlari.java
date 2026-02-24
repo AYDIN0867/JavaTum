@@ -25,6 +25,12 @@ sb.reverse();
         System.out.println(sb); //upot eurt*ayaHtumU
         System.out.println(sb.reverse()); //UmutHaya*true topu
 
+sb.insert(4,"hem");
+        System.out.println(sb); //UmuthemHaya*true topu
+
+sb.deleteCharAt(3);
+        System.out.println(sb); //UmuhemHaya*true topu  4. sıradaki t gitti
+
 
 
 
