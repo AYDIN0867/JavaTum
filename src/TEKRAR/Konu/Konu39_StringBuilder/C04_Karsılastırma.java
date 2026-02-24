@@ -47,5 +47,7 @@ eger bir indekste aynıolmayan karakterler bulursa bu iki karakter
 arasındaki ASCII deger farkını yazdırır...
 
  */
+
+
     }
 }
