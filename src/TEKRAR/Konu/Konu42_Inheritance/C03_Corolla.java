@@ -55,7 +55,24 @@ String yakitTuru="Dizel";
         System.out.println(corolla1.yakitTuru);//benzin
 
 
-    }
+    }//inheritance OOP conseptinin 2. baslıgıdır
+    //java da childlar parent edinirler extends key word ile
+    // projlerde uygulam sıfırdan kurulurken catı class lar belirlenirken
+    //2. eger yeni model çıkarıken hersye sıfırdan çıkarmya gerek yoktur
+    //Araba class ından extend ederim
+
+    //en buyk avantajı reusability si dir
+    //bizi zaman ve hafıza israfından kurtatır
+    // inheritance de genel özellikler ortak özellikler
+    // child class larda daha güncel ve spesifik özellikler olur
+    //basta child olan sonradan paren edinilebilir diye düşünülmeli
+    //burdada encapsule yada access modifier ile ayarlanma yaılabilir...
+    //private ve/veya static class uyeleri inherit edilemez...
+    //inheritance için en uygun acces modifier protected dır
+    //parent class aynı zamanda super class dır
+
+
+
 
 
 
