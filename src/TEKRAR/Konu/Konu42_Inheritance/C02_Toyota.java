@@ -23,8 +23,8 @@ bazi variableleri kendimize uyarlayabiliriz
 
  */
 
-    protected String marka="Toyota";
-    protected  String motor="Cevreye duyarlı motor";
+    protected String marka1="Toyota";
+    protected  String motor1="Cevreye duyarlı motor";
 
    /*
 
@@ -36,6 +36,16 @@ bazi variableleri kendimize uyarlayabiliriz
     protected  String güvenlik="DGS1001";
     protected  String firen="ABS";
 
+
+/*
+bu durumda toyota class'indan olusturulacak obje
+olsa Araba class ından 3 adet (model, sanzuman, kasa)
+guncellendiği 2 adet (marka,motor) ve yeni eklediği 3 adet
+(lastik, guvenlik, fren)
+toplam 8 ozelliğe sahip olur...
+ */
+
+//kendisinden obje oluturlmayacak çatı class olacak
 
 
 

@@ -33,7 +33,7 @@ yoksa baska class(child classs) lar icin CATI görevi mi gorecek
     public  String model1="Model belirtilmedi";
     public  String motor1="Motor belli değil daha";
     public  String kasa="kasa secilmedi";
-    public  String sanzuman="kasa secilmedi";
+    public  String sanzuman="sanzuman secilmedi";
 
 
 
