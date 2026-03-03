@@ -2,6 +2,12 @@ package TEKRAR.Konu.Konu43_ConstructorCall;
 
 public class C03_Corsa extends C02_Opel{
 
+    C03_Corsa(){
+
+        System.out.println("Corsa parametresiz constructor calisti");
+    }
+
+
     String model="Corsa";
     String kasa="Corsa kasasi";
     String motor="vvdi";
@@ -24,6 +30,27 @@ public class C03_Corsa extends C02_Opel{
         System.out.println(corsa1.marka);//Opel
         System.out.println(corsa1.guvenlik);//dgs1001
 
+/*
+child class'ından olusturulan bir obje
+sadece kendi classındaki özellikleri değil
+paretnt classlardaki özelliklere sahip olurlar
+
+2- bir obje olusturuldugunda objenin bir classdaki instance
+variablelere sahip olması icin o class ın constructor ı calışmalıdır
+
+3- o zaman child class da obje olusturulruken
+parent class constructorlarında çalışması gerekir
+yoksa child class da oluşturulan objeye yapışmaz
+
+4- java bu işlemi gercekleştirmek için
+extedns key word kullanan class larda basit bir kural
+oluştıurmustur
+
+Extend keywor kullanılan classlarda oluştururlan her constructrın
+ilk satırında constructor CALLL olmak zorundadır...
+
+
+ */
 
 
 
