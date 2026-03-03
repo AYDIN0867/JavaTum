@@ -49,14 +49,16 @@ oluştıurmustur
 Extend keywor kullanılan classlarda oluştururlan her constructrın
 ilk satırında constructor CALLL olmak zorundadır...
 
+5- eger kodu yazanlar ilk satıra constructor call yazmazlarsa
+java default (varsayılan) olarak super constructor call koyar
+yani ONCE parent class daki parametresiz constructor calışmalı der
 
  */
 
 
 
+
     }
-
-
 
 
 }
