@@ -9,8 +9,7 @@ public class C04_GP {
     }
 
     C04_GP(String s){
-
-        this(a:4);
+        this(4);
         System.out.println("gp parametreli constructore calisti");
     }
 
