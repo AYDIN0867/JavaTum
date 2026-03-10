@@ -2,7 +2,7 @@ package TEKRAR.Konu.Konu43_ConstructorCall;
 
 public class C04_GP {
 
-    C04_GP(){
+    C04_GP(){ //grandparent
 
         System.out.println("parametresiz constructor calıştı");
 
