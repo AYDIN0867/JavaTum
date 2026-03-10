@@ -7,6 +7,19 @@ public class C06_Child extends C05_P {
         System.out.println("C parametresiz constructor calisti");
 
 
+    }
+
+    C06_Child (String s){
+        super(5);
+        System.out.println("String parametreli constructor calisti");
+
+
+    }
+
+    C06_Child(int a){
+
+        super();
+        System.out.println("C int parametreli constructor calisit");
 
     }
 
