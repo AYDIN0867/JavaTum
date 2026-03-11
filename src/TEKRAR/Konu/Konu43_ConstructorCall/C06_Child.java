@@ -72,3 +72,51 @@ public class C06_Child extends C05_P {
 //extend key word ile parent yapıldıgında
 //mutlaka constructor calll olmalıdır
 //hiç birşey yoksa super () constructor call default olarak vardır
+
+/*
+
+1-Java extends keyword kullnaılan bir class daki
+her constructor'ın ilk satirinda CVonstructor Call
+olmasını zorunlu kılmıştır...
+
+2- Kodu yazan kişi ilk satira constructor CAll
+KOYMAZSA java ototmotik default olarak
+super(); koyar
+
+3- Java'nin koydugu super();
+hangi constructor'ın icinde olursa olsun
+parametresizdir...
+
+4- Child class'da bir obje olusturdugumuzda
+constructor lar super(); mekanizması sayesinde
+extends kullanmayan ilk class a otomatik olarak gider
+
+5- extends kullanmayan class'a ulasabildiginde
+obje olusturulur... ve her class daki ilk calısan constructor
+o class daki instance variableler ve degerlerinin
+birer kopyasını alıp objeye yapıstırır...
+
+6-eger constructor variable a atama yaparken
+o variable daha önceki parentlarda olusturlmussa
+o variable'i yeni olusturmaz, update eder boylece
+ child class'a kadar variablelere en GUNCEL atanmış olur
+
+7-Kodu yazanlar super(ilgiliParametreler) yerine
+this (ilgili Parametreler) de kullanabilir...
+super()==> parent class'daki constructor
+this()==> icinde olunan class'daki constructor ları cagirir...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
