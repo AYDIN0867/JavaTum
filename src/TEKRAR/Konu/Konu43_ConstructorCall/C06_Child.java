@@ -23,6 +23,12 @@ public class C06_Child extends C05_P {
 
     }
 
+    public static void main(String[] args) {
+
+        C06_Child child1=new C06_Child(10);
+
+
+    }
 }
 
 //extend key word ile parent yapıldıgında
