@@ -24,3 +24,7 @@ public class C06_Child extends C05_P {
     }
 
 }
+
+//extend key word ile parent yapıldıgında
+//mutlaka constructor calll olmalıdır
+//hiç birşey yoksa super () constructor call default olarak vardır
