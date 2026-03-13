@@ -21,13 +21,37 @@ public class C02_Child extends C01_Parent {
 
     public void method1(){
 
-        String str="Child class metod";
+        String str="Child class metod ";
         String t ="Cansu";
         String k="Oguzhan";
 
+        //normlade main metod static dolayısıyla main metodddan burada instance oluşaturlan
+        // str a ulalamayız obje üzerinden ulaşırız...
+        //static apmak çok tercih edilemez inheritance de kullanılmaz
+
+
+        System.out.println(s);// Anıl, içinde bulunan scope bakılır
+        //burada s yok şimdi class levele bakar class levelde s yok
+        //şimdi parnte bakar ve Anıl yazdırır
+
+        System.out.println(this.s);//Anıl
+        System.out.println(super.s);//direk parente bakar...Anıl
+
+
+        System.out.println(str); // Child class metod ,önce içinde bulunan scopa bak
+        //ve bu scopda str var yazdırılınca child class metod yazmalıdır
+
+        System.out.println(this.str);//child class yani class seviyesindeki getirdi
+
+        System.out.println(super.str);//buda parent class daki str ı getirir
+//Calismak isitir...
+
+
+
+
+
+
     }
-
-
 
 
 }
