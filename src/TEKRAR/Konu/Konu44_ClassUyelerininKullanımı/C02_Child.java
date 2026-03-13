@@ -4,7 +4,7 @@ public class C02_Child extends C01_Parent {
 
     String str="Child class";
     String t ="Hamza";
-    String k="Ahmet";
+    String z="Ahmet";
 
 
 
@@ -23,7 +23,8 @@ public class C02_Child extends C01_Parent {
 
         String str="Child class metod ";
         String t ="Cansu";
-        String k="Oguzhan";
+        String z="Oguzhan";
+
 
         //normlade main metod static dolayısıyla main metodddan burada instance oluşaturlan
         // str a ulalamayız obje üzerinden ulaşırız...
@@ -34,9 +35,9 @@ public class C02_Child extends C01_Parent {
         //burada s yok şimdi class levele bakar class levelde s yok
         //şimdi parnte bakar ve Anıl yazdırır
 
-        System.out.println(this.s);//Anıl
+        System.out.println(this.s);//Anıl önce class da bakar
         System.out.println(super.s);//direk parente bakar...Anıl
-
+        //içinde bulunan class a değil doğrudan parent a bakar
 
         System.out.println(str); // Child class metod ,önce içinde bulunan scopa bak
         //ve bu scopda str var yazdırılınca child class metod yazmalıdır
@@ -44,8 +45,17 @@ public class C02_Child extends C01_Parent {
         System.out.println(this.str);//child class yani class seviyesindeki getirdi
 
         System.out.println(super.str);//buda parent class daki str ı getirir
-//Calismak isitir...
+        //Calismak isitir...
 
+        System.out.println(t);//Cansu
+        System.out.println(this.t);//Hamza
+        //System.out.println(super.t);//parent class a bakarız orda t yok
+        //burdan geri vites yani child a bakayım DİYEMEYIZ
+        //BULAMADIGI İÖÇİNDE HATA VERİR cte ...
+
+        System.out.println(z);//içinde bulundugumuz scopede ki z //oguzhan
+        System.out.println(this.z);//class seviyesinde z //Ahmet
+       // System.out.println(super.z);//p<rent da z yok CTE verir
 
 
 
