@@ -2,6 +2,23 @@ package TEKRAR.Konu.Konu45_DataTypeKullanımı;
 
 public class C03_Hayvanlar {
 
+  /*
+  Java da bir özelliği variable olarak olusturmamız ile
+  metod olarak olusturmamız
+  olusturulacak objelerin DAVRANISINI tamamen farklılaştırır...
+
+  yani özellikler variable olarak olusturuldugunda
+  java objenin özelliklerini belirlerken farklı davranır
+
+   özellikler metod olarak olusturuldugunda ise daha
+   farklı davranır..metodda daha güncele gider
+
+
+
+   */
+
+
+
     public String hareket="hareket ederler";
     public String solunum="nefes alırlar";
     public String besleme="beslenirler";

@@ -11,16 +11,28 @@ public class C05_AvcıKuslar extends C04_Kuslar {
 
     public static void main(String[] args) {
 
-        String str= "Java candir";
+        String str= "Java candir"; //String str icin data turudur
+        //ama genel anlamda bizim için class dır
         ArrayList<String> isimler=new ArrayList<>();
 
     /*
+
+    String Java nın olusturdugu bir classdır ve AYNI ZAMANDA
+    o class dan olusturulan objeler ıcın DATA turudur...
+    aynı sey Java daki tum classla ıcın gecerlidir
+
+    C05_AvciKuslar bizim icin "olusturdugumuz bir class"dır
+    ama ayni zamanda avci objesi için data turudur
+
+    C04_Kuslar "olsturdugumuz bir class"dır
+    ama aynı zamanda avcı objesi icin data turudur...
 
      */
 
     C05_AvcıKuslar avciKartal1=new C05_AvcıKuslar();
 
         System.out.println(avciKartal1.omur); //yasar ve olurler
+
 
 
     }
