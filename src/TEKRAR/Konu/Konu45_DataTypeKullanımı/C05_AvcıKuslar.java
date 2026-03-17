@@ -67,14 +67,51 @@ public class C05_AvcıKuslar extends C04_Kuslar {
         //doğru baktıgımızda pence variablesi olmadıgı için CTE alırız
 
 
-
-
+        System.out.println("=========================================");
 
         C03_Hayvanlar hayvanKartal1=new C05_AvcıKuslar();
+//hayvanKartal objesi C05_AvcıKuslar class
+// ından oluşturmuştur ama data turu C03_Hayvanlar class ı dır
+//kodlama C03_Hayvanlardan baslar
+        System.out.println(hayvanKartal1.omur); //Hayvanlar ...
+        System.out.println(hayvanKartal1.solunum);//H..
+        System.out.println(hayvanKartal1.cogalma);//H
+        //System.out.println(hayvanKartal1.kanat);// olmadıgı için CTE cevir
+        System.out.println(hayvanKartal1.hareket);//H
+        System.out.println(hayvanKartal1.besleme);//H
+        //System.out.println(hayvanKartal1.gaga);//olmadıgı için CTE
+        //System.out.println(kusKartal1.pence);//olmadıgı için CTE
+
+        //kuslar class ından bir obje olusturun...
+        C04_Kuslar kus1=new C04_Kuslar();
+        //kus1 objesinin data turu C04_Kuslardır ve bu belirleyicidir
+
+        System.out.println(kus1.omur); //Hayvanlar ...
+        System.out.println(kus1.solunum);//Kuslar..
+        System.out.println(kus1.cogalma);//K
+        System.out.println(kus1.kanat);//K
+        System.out.println(kus1.hareket);//H
+        System.out.println(kus1.besleme);//H
+        System.out.println(kus1.gaga);//K
+        // System.out.println(kusKartal1.pence);//
+
+
+        //eger özellikler variable ile belirlenmişşse
+//yani metod ile belirlenmemiş ise data turu belirleyicidir
+//yani hayvanKus objesinde data turu C03_hayvanKus dur
+        C03_Hayvanlar hayvanKus=new C04_Kuslar();
+
+        System.out.println(hayvanKus.omur); //Hayvanlar ...
+        System.out.println(hayvanKus.solunum);//H..
+        System.out.println(hayvanKus.cogalma);//H
+        //System.out.println(hayvanKus.kanat);// olmadıgı için CTE cevir
+        System.out.println(hayvanKus.hareket);//H
+        System.out.println(hayvanKus.besleme);//H
+        //System.out.println(hayvanKartal1.gaga);//olmadıgı için CTE
+        //System.out.println(kusKartal1.pence);//olmadıgı için
 
 
     }
-
 
 
 
