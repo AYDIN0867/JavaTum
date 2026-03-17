@@ -27,12 +27,26 @@ public class C05_AvcıKuslar extends C04_Kuslar {
     C04_Kuslar "olsturdugumuz bir class"dır
     ama aynı zamanda avcı objesi icin data turudur...
 
+    eger özellikler variable olarak olusturmussa
+    DATA TURU tek belirleyicidir...
+
      */
 
     C05_AvcıKuslar avciKartal1=new C05_AvcıKuslar();
 
-        System.out.println(avciKartal1.omur); //yasar ve olurler
+//avciKartal objesi kullnadıgı constructor C05_AvciKuslar
+//CLASS ının bir objesidir...
+//avcikartal objesinin data turu C05_AvciKuslar class ıdır..yanı esitliğinsol tarafındaki classdır
+//javad a bir obje data turu olarak parent classları da kullanbilir
+//
 
+
+        System.out.println(avciKartal1.omur); //yasar ve olurler
+        System.out.println(avciKartal1.solunum);
+
+
+        C04_Kuslar kusKartal1=new C05_AvcıKuslar();
+        C03_Hayvanlar hayvanKartal1=new C05_AvcıKuslar();
 
 
     }
