@@ -51,9 +51,25 @@ public class C05_AvcıKuslar extends C04_Kuslar {
         System.out.println(avciKartal1.gaga);//A  sivri gagali
         System.out.println(avciKartal1.pence);//A penceleri vardır
 
-
+        System.out.println("===========================================");
 
         C04_Kuslar kusKartal1=new C05_AvcıKuslar();
+
+        System.out.println(kusKartal1.omur); //Hayvanlar ...
+        System.out.println(kusKartal1.solunum);//Kuslar..
+        System.out.println(kusKartal1.cogalma);//K
+        System.out.println(kusKartal1.kanat);//K
+        System.out.println(kusKartal1.hareket);//H
+        System.out.println(kusKartal1.besleme);//H
+        System.out.println(kusKartal1.gaga);//K
+       // System.out.println(kusKartal1.pence);//
+        //C04_Kuslar classından yukarıya doğru yani parent classına
+        //doğru baktıgımızda pence variablesi olmadıgı için CTE alırız
+
+
+
+
+
         C03_Hayvanlar hayvanKartal1=new C05_AvcıKuslar();
 
 
