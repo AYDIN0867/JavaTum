@@ -42,7 +42,15 @@ public class C05_AvcıKuslar extends C04_Kuslar {
 
 
         System.out.println(avciKartal1.omur); //yasar ve olurler
-        System.out.println(avciKartal1.solunum);
+        System.out.println(avciKartal1.solunum);//K akcigerle nefes alırlar
+        System.out.println(avciKartal1.cogalma);//K yumurtayla cogalırlar
+        System.out.println(avciKartal1.kanat);//Kkanatlidirlar
+        System.out.println(avciKartal1.hareket);//A ucarlar
+        System.out.println(avciKartal1.besleme);//A et yerler
+
+        System.out.println(avciKartal1.gaga);//A  sivri gagali
+        System.out.println(avciKartal1.pence);//A penceleri vardır
+
 
 
         C04_Kuslar kusKartal1=new C05_AvcıKuslar();
