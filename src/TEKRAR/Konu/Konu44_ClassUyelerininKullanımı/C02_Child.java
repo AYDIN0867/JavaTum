@@ -4,7 +4,7 @@ public class C02_Child extends C01_Parent {
 
     String str="Child class";
     String t ="Hamza";
-    String z="Ahmet";
+    String k="Ahmet";
 
 
 
@@ -54,8 +54,25 @@ public class C02_Child extends C01_Parent {
         //BULAMADIGI İÖÇİNDE HATA VERİR cte ...
 
         System.out.println(z);//içinde bulundugumuz scopede ki z //oguzhan
-        System.out.println(this.z);//class seviyesinde z //Ahmet
+       // System.out.println(this.z);//class seviyesinde z //Ahmet
        // System.out.println(super.z);//p<rent da z yok CTE verir
+
+        System.out.println(k);//scopa gider
+        System.out.println(this.k);//class a gider
+       // System.out.println(super.k); //parente bakar orda yok cte verir
+
+
+        method2();//içinde bulundugumuz metod static olmadıgından içeri girmek de sorun yok
+        //class da varsa bunu kullnaır
+        super.method2();//buda doğrudan parent class daki metod2 tye gider
+        this.method2();//bu class da metod2 yi ara bul kullan
+
+        method3();//içinde bulunan class bakılır
+        //yoksa parent a bakar parent method3 çalışır
+        super.method3();//aramaya parent dan başlar ve parentdaki metod3 u calıştırır
+
+
+
 
 
 
