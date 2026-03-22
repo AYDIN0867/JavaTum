@@ -110,6 +110,32 @@ public class C05_AvcıKuslar extends C04_Kuslar {
         //System.out.println(hayvanKartal1.gaga);//olmadıgı için CTE
         //System.out.println(kusKartal1.pence);//olmadıgı için
 
+      //Hayvanlar class ından bir obje olusturun....
+
+        C03_Hayvanlar hayvan1=new C03_Hayvanlar();
+        //data turu C03_Hayvanlar class ı ise C03_Hayvanlar
+        System.out.println(hayvan1.omur); //Hayvanlar yasar ve olurler
+        System.out.println(hayvan1.solunum);//H..nefes alırlar
+        System.out.println(hayvan1.cogalma);//H.. cogalırlar
+        //System.out.println(hayvan1.kanat);// olmadıgı için CTE cevir
+        System.out.println(hayvan1.hareket);//H
+        System.out.println(hayvan1.besleme);//H
+        //System.out.println(hayvanKartal1.gaga);//olmadıgı için CTE
+        //System.out.println(kusKartal1.pence);//olmadıgı için
+
+        //C04_Kuslar hayvan2=new C03_Hayvanlar();
+       //data turu olarak constructrırn oldugu class ın kendisi veya
+       //parentları secilebilir...
+
+
+
+
+
+
+
+
+
+
 
     }
 
