@@ -9,6 +9,10 @@ public class C06_HayvanlarMetod {
     public void omur(){System.out.println("yasar ve olurler");}
 
 
+//metod olarak oluşturuldıugunda sadece dat turune bakmaz
+//daha güncelne bakar....
+
+
 
 
 
