@@ -29,13 +29,12 @@ public class C08_AvcıKuslar extends C07_Kuslar {
         metod un yanınna gelen yukarı aşağı oklar gösterir
 
 
-
-
-
-
-
          */
 
+        //Avci kuslar class ından bir obje olusturun
+
+        C08_AvcıKuslar avciKartal=new C08_AvcıKuslar();
+        avciKartal.omur();
 
 
     }
