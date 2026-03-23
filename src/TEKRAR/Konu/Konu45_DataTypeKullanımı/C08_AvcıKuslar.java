@@ -45,6 +45,22 @@ public class C08_AvcıKuslar extends C07_Kuslar {
 
         System.out.println("=========================");
 
+C07_Kuslar kusKartal=new C08_AvcıKuslar();
+
+        kusKartal.omur();//H yasar ve olurler
+        kusKartal.solunum();//K akcigerle nefes alırlar
+        kusKartal.cogalma();//K yumurtayla cogalırlar
+        kusKartal.kanat();//K kanatlıdırlar
+        kusKartal.hareket();//A ucarlar
+        kusKartal.beslenme();//A et yerler
+        kusKartal.gaga();//sivri gagalı
+      //  kusKartal.pence();// önce bulacak sonra günceline bakacak metodlarda
+      //bulamadığı için CTE verdi
+
+
+
+
+
 
 
 
