@@ -34,7 +34,18 @@ public class C08_AvcıKuslar extends C07_Kuslar {
         //Avci kuslar class ından bir obje olusturun
 
         C08_AvcıKuslar avciKartal=new C08_AvcıKuslar();
-        avciKartal.omur();
+        avciKartal.omur();//H yasar ve olurler
+        avciKartal.solunum();//K akcigerle nefes alırlar
+        avciKartal.cogalma();//K yumurtayla cogalırlar
+        avciKartal.kanat();//K kanatlıdırlar
+        avciKartal.hareket();//A ucarlar
+        avciKartal.beslenme();//A et yerler
+        avciKartal.gaga();//divri gagalı
+        avciKartal.pence();// A pencelidirler
+
+        System.out.println("=========================");
+
+
 
 
     }
