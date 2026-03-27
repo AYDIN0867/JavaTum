@@ -116,6 +116,23 @@ C07_Kuslar kus1=new C07_Kuslar();
      //   hayvanKus.pence();// olmadıgı ıcın CTE verir
 
 
+        System.out.println("=====================");
+      //hayvanlar class ından bir obje olusuturun
+
+  C06_HayvanlarMetod hayvan1=new C06_HayvanlarMetod();
+
+        hayvan1.omur();//H yasar ve olurler
+        hayvan1.solunum();//H nefes alırlar
+        hayvan1.cogalma();//H cogalırlar
+      //  hayvan1.kanat();//yok CTE verir
+        hayvan1.hareket();//H hareket ederler
+        hayvan1.beslenme();//H beslenirler
+      //  hayvan1.gaga();//gagalıdırlar
+      //  hayvan1.pence();// olmadıgı ıcın CTE verir
+
+
+
+
     }
 
 
