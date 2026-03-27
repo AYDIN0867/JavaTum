@@ -1,5 +1,8 @@
 package TEKRAR.Konu.Konu45_DataTypeKullanımı;
 
+import ders44_Inheritance.D05_DataTypeKullanimi.C06_HayvanlarMethod;
+import ders44_Inheritance.D05_DataTypeKullanimi.C08_AvciKuslarMethod;
+
 public class C08_AvcıKuslar extends C07_Kuslar {
 
     public void hareket(){System.out.println("ucarlar");}
@@ -45,7 +48,7 @@ public class C08_AvcıKuslar extends C07_Kuslar {
 
         System.out.println("=========================");
 
-C07_Kuslar kusKartal=new C08_AvcıKuslar();
+       C07_Kuslar kusKartal=new C08_AvcıKuslar();
 
         kusKartal.omur();//H yasar ve olurler
         kusKartal.solunum();//K akcigerle nefes alırlar
@@ -58,6 +61,18 @@ C07_Kuslar kusKartal=new C08_AvcıKuslar();
       //bulamadığı için CTE verdi
 
 
+        System.out.println("=========================");
+
+        C06_HayvanlarMetod hayvanKartal=new C08_AvcıKuslar();
+
+        hayvanKartal.omur();//H yasar ve olurler
+        hayvanKartal.solunum();//K akcigerle nefes alırlar
+        hayvanKartal.cogalma();//K yumurtayla cogalırlar
+        //hayvanKartal.kanat();//K hayvanlar class ında yok hiç bulamazsa günceline bakamaz
+        hayvanKartal.hareket();//A ucarlar
+        hayvanKartal.beslenme();//A et yerler
+        //hayvanKartal.gaga();//hayvanlar class ındakihayvan kartal icin gaga metodu yok
+        //hayvanKartal.pence();
 
 
 
