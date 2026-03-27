@@ -74,9 +74,46 @@ public class C08_AvcıKuslar extends C07_Kuslar {
         //hayvanKartal.gaga();//hayvanlar class ındakihayvan kartal icin gaga metodu yok
         //hayvanKartal.pence();
 
+//eger CTE vermiyorsa hepsi aynı guncel bilgiye sahiptirler...
 
 
 
+ /*
+ OZELLIKLER VARIABLE OLARAK OLUŞTURULMUŞSA DATA TURU TEK BELIRLEYICIDIR
+ AYNI DATA TURUNE SAHIP OBJELER AYNI OZELLIKLERI GOSTERIR
+ OZELLIKLER METOD OLARAK OLUSUTURULMUSSA SADEE DATA TURUDNEGIL CONSTRUCTOR DA
+ ETKILIDIR
+ ONEMLİ NOT: AYNI CONSTRUCTOR A SAHIP OBJELER
+ YA AYNI OZELLIKLERI GOSTERIRLER YA DA CTE VERIRLER
+
+  */
+
+//KUSLAR class ından bir obje olusturalım...
+
+C07_Kuslar kus1=new C07_Kuslar();
+
+        kus1.omur();//H yasar ve olurler
+        kus1.solunum();//K akcigerle nefes alırlar
+        kus1.cogalma();//K yumurtayla cogalırlar
+        kus1.kanat();//K kanatlıdırlar
+        kus1.hareket();//H hareket ederler
+        kus1.beslenme();//H beslenirler
+        kus1.gaga();//gagalıdırlar
+        //kus1.pence();// olmadıgı ıcın CTE verir
+
+//gunceli aranırken consrtructor a kadar gider daha
+// günceli olmaz oda default super ile parent class a giderler
+
+        C06_HayvanlarMetod hayvanKus=new C07_Kuslar();
+
+        hayvanKus.omur();//H yasar ve olurler
+        hayvanKus.solunum();//K akcigerle nefes alırlar
+        hayvanKus.cogalma();//K yumurtayla cogalırlar
+       // hayvanKus.kanat();//yok CTE verir
+        hayvanKus.hareket();//H hareket ederler
+        hayvanKus.beslenme();//H beslenirler
+     //   hayvanKus.gaga();//gagalıdırlar
+     //   hayvanKus.pence();// olmadıgı ıcın CTE verir
 
 
     }
