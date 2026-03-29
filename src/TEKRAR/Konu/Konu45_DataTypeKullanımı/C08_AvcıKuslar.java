@@ -124,17 +124,17 @@ C07_Kuslar kus1=new C07_Kuslar();
         hayvan1.omur();//H yasar ve olurler
         hayvan1.solunum();//H nefes alırlar
         hayvan1.cogalma();//H cogalırlar
-      //  hayvan1.kanat();//yok CTE verir
+      //hayvan1.kanat();//yok CTE verir
         hayvan1.hareket();//H hareket ederler
         hayvan1.beslenme();//H beslenirler
-      //  hayvan1.gaga();//gagalıdırlar
-      //  hayvan1.pence();// olmadıgı ıcın CTE verir
-
-
+      //hayvan1.gaga();//gagalıdırlar
+      //hayvan1.pence();// olmadıgı ıcın CTE verir
 
 
     }
-
+//overRidden gcersiz kılınan metod
+//overriding child class ın parent class daki bir metodu kendisine
+//uyarlamasıdır...
 
 
 
