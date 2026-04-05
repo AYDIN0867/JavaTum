@@ -1,6 +1,6 @@
-package TEKRAR.Konu.Konu46_Overriding.Konu46_Overriding;
+package TEKRAR.Konu.Konu46_Overriding;
 
-public class C03_Hayvanlar {
+public class C01_Hayvanlar {
 
   /*
   Java da bir özelliği variable olarak olusturmamız ile
@@ -16,8 +16,6 @@ public class C03_Hayvanlar {
 
 
    */
-
-
 
     public String hareket="hareket ederler";
     public String solunum="nefes alırlar";

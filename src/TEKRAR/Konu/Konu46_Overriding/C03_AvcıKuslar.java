@@ -4,7 +4,7 @@ import TEKRAR.Konu.Konu45_DataTypeKullanımı.C03_Hayvanlar;
 
 import java.util.ArrayList;
 
-public class C05_AvcıKuslar extends C04_Kuslar {
+public class C03_AvcıKuslar extends C02_Kuslar {
 
     public String hareket="ucarlar";
     public String besleme="et yerler";
@@ -34,7 +34,7 @@ public class C05_AvcıKuslar extends C04_Kuslar {
 
      */
 
-    C05_AvcıKuslar avciKartal1=new C05_AvcıKuslar();
+    C03_AvcıKuslar avciKartal1=new C03_AvcıKuslar();
 
 //avciKartal objesi kullnadıgı constructor C05_AvciKuslar
 //CLASS ının bir objesidir...
@@ -55,7 +55,7 @@ public class C05_AvcıKuslar extends C04_Kuslar {
 
         System.out.println("===========================================");
 
-        C04_Kuslar kusKartal1=new C05_AvcıKuslar();
+        C02_Kuslar kusKartal1=new C03_AvcıKuslar();
 
         System.out.println(kusKartal1.omur); //Hayvanlar ...
         System.out.println(kusKartal1.solunum);//Kuslar..
@@ -71,7 +71,7 @@ public class C05_AvcıKuslar extends C04_Kuslar {
 
         System.out.println("=========================================");
 
-        TEKRAR.Konu.Konu45_DataTypeKullanımı.C03_Hayvanlar hayvanKartal1=new C05_AvcıKuslar();
+        TEKRAR.Konu.Konu45_DataTypeKullanımı.C03_Hayvanlar hayvanKartal1=new C03_AvcıKuslar();
 //hayvanKartal objesi C05_AvcıKuslar class
 // ından oluşturmuştur ama data turu C03_Hayvanlar class ı dır
 //kodlama C03_Hayvanlardan baslar
@@ -85,7 +85,7 @@ public class C05_AvcıKuslar extends C04_Kuslar {
         //System.out.println(kusKartal1.pence);//olmadıgı için CTE
 
         //kuslar class ından bir obje olusturun...
-        C04_Kuslar kus1=new C04_Kuslar();
+        C02_Kuslar kus1=new C02_Kuslar();
         //kus1 objesinin data turu C04_Kuslardır ve bu belirleyicidir
 
         System.out.println(kus1.omur); //Hayvanlar ...
@@ -101,7 +101,7 @@ public class C05_AvcıKuslar extends C04_Kuslar {
         //eger özellikler variable ile belirlenmişşse
 //yani metod ile belirlenmemiş ise data turu belirleyicidir
 //yani hayvanKus objesinde data turu C03_hayvanKus dur
-        TEKRAR.Konu.Konu45_DataTypeKullanımı.C03_Hayvanlar hayvanKus=new C04_Kuslar();
+        TEKRAR.Konu.Konu45_DataTypeKullanımı.C03_Hayvanlar hayvanKus=new C02_Kuslar();
 
         System.out.println(hayvanKus.omur); //Hayvanlar ...
         System.out.println(hayvanKus.solunum);//H..
