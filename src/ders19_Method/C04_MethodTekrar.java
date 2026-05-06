@@ -25,6 +25,7 @@ public class C04_MethodTekrar {
 
 //puplic static int sayiTopla dsonuc gelecekse gelecek sonuca göre
         //uygun bir return type olacaktır...
+//metod idmi 4. dur ietenilen hersey konulur...isimden ne iş yaptığı anlaşılabilmelidir...
 
     }
 }
