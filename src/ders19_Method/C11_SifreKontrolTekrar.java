@@ -3,22 +3,67 @@ package ders19_Method;
 public class C11_SifreKontrolTekrar {
 
     public static void main(String[] args) {
-
-        //Soru 4: verilen sifre icin
-        // asagidki sartlari gereken tum eksikleri YAZDIRAN
-        //tum sartlar kontrol edildikten sonra
-        //sifrede hata YOKSA true, VARSA false donduren
-        // bir metod olusturun
-
-        //-ilk kucuk olamlı
-        // son karakter rakam olmalı
-        //sifre boslu icermemeli
-        //uzunlugu en az 10 karakter olmalı
-
+        System.out.println(sifreGecerliMi("adfg iuy"));
 
     }
 
+public static boolean sifreGecerliMi(String sifre){
+int sayac=0;
 
+        //- ilk harf kucuk harf olmali
+    char ilkHarf=sifre.charAt(0);
+
+    if(!Character.isLowerCase(ilkHarf)){
+        System.out.println("ilk harf kucuk harf olmali");
+        sayac++;
+    }
+
+//son karakter rakam olmalı
+    char sonKarakter=sifre.charAt(sifre.length()-1);
+
+    if (!Character.isDigit(sonKarakter)){
+
+        System.out.println("son karakter rakam olmali");
+
+        sayac++;
+    }
+
+    //sifre bosluk icermemeli
+
+    if(sifre.contains(" ")){
+
+        System.out.println("sifre bosluk icermemeli");
+        sayac++;
+    }
+
+    //- uzunluk en az 10 karakter olmali
+
+    if(!(sifre.length()>10)){
+
+        System.out.println("sifrenin uzunlugu en az 10 karakter olmali");
+      sayac++;
+    }
+
+
+    /*
+
+    basta sayaca 0 degeri atadık
+    4 kontrol yaptık sona gelindiğinde sayac 0-1-2-3-4
+    olabilir
+
+    sayac 0 ise hic hata yok sonucu cıkabilir....
+     */
+
+
+if (sayac==0){
+
+    return true;
+}else {
+
+    return false;
+}
+
+}
 
 }
 
