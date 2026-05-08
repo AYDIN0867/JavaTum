@@ -12,13 +12,7 @@ public class C05_Child extends C04_Parent {
 
     */
 
-public void metod2(){
 
-
-
-
-
-}
 
 
 public void solunum(){
@@ -26,10 +20,40 @@ public void solunum(){
 
 }
 
-public void method1(){
+public void metod1(int sayi){
+
+/*
+override metod oluşturmak icin @Override notasyonu kullanılabilir
+fakat bu notasyonu kullanmak zorunlu değildir.Over ride noasyonu
+intellij tarafından otomatik olusturulur..bu notasyon parent class taki override edilen metodu takip eder
+eğer silinir veya değiştirilirse override işlemi gecersiz olur...
+Bu gecersizlik nedeniyle de @OverRide notasyonu sayesinde CTE verir
+
+Notasyon kullanılmayan override işleminde
+parent class taki metod takip edilmez
+silinmesi ya da değişmesi durumunda Overriding
+özelligi biter fakat kod calısmaya devam eder
 
 
+Degismesi ya da silinmesi sonucu
+
+
+
+
+
+ */
 
 }
 
+    @Override
+    public void method2() {
+        super.method2();
+    }
+
+
+    public void method3(){
+
+
+
+    }
 }
