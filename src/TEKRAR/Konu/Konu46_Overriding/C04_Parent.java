@@ -56,6 +56,10 @@ public void method3(){
 
 }
 
+public static void method4(){
+
+
+}
 
 }
 

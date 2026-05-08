@@ -50,10 +50,46 @@ Degismesi ya da silinmesi sonucu
         super.method2();
     }
 
+    /*
+
+    Parenttaki metoda overriding yaptığımız metod eğer override notasyonu
+    ile yapılınca parentta signutarede değişiklik yaptığımızda hata verir
+    ama override notasyonu OLMADAN overridign yaptğımızda ise daha sonra
+    parent class da signutare yada silkinme sonucu childdeki metod
+    da hata vermez ayrı bir metod olarak childdeki metod devam eder...
+
+
+
+     */
+
+    /*
+
+    static olarak işaretlenen metodlar override EDİLEMEZLER
+    CHİLD CLASS ta aynı signutare sahip bir metod oluşur
+    ama bu ikisi override ilişkisi kurmazlar
+    her ne kadar signutare leri aynı olsa da static olarak işaretledikleri
+    için biribirinden bağımsız iki farklı metod olarak çalışırlar
+
+    parent class ta static olarak işaretlenmiş bir metodu child
+    class icinde aynı signutare kullanılarak static keyword kullanılmadan OLUŞTURMAZSINIZ
+    olusturmak istendiğinde CTE verir
+
+     */
+
 
     public void method3(){
 
 
 
     }
+
+public static void method4(){
+
+//parenttaki metodla herşeyi aynı olmasına rağmen override edilemez
+    //çünkü static keyword ile oluşturulmuş metodlar override edilemz
+
 }
+
+
+}
+
