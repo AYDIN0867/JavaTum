@@ -28,4 +28,22 @@ public class C04_MethodTekrar {
 //metod idmi 4. dur ietenilen hersey konulur...isimden ne iş yaptığı anlaşılabilmelidir...
 
     }
+
+
+
+    public  void method2(){
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
 }

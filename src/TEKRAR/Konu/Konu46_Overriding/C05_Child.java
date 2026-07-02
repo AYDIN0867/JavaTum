@@ -90,6 +90,11 @@ public static void method4(){
 
 }
 
+/*
+parent class ta final olarak işaretlenen bir metod
+Child class ta override eielemez....
+ */
+
 
 }
 

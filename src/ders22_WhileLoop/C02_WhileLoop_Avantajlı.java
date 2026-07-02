@@ -40,7 +40,7 @@ while (sayi1!=0){
 
 }
 
-        System.out.println("girirlen "+count+"adet pozitif tamsayının toplamı :"+toplam);
+        System.out.println("girilen "+count+"adet pozitif tamsayının toplamı :"+toplam);
 
     }
 }

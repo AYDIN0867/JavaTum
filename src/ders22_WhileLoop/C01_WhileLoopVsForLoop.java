@@ -14,7 +14,7 @@ public class C01_WhileLoopVsForLoop {
 
 
       // 1'den 10'a kadar (1 ve 10 dahil) tum sayıları toplayın
-int toplam=0;
+         int toplam=0;
         for (int i = 1; i <=10 ; i++) {
 
          toplam+=i ;

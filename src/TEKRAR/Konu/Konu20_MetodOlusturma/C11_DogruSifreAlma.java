@@ -15,7 +15,7 @@ public class C11_DogruSifreAlma {
         Scanner scanner=new Scanner(System.in);
 
             String sifre;
-            int sayac=0;
+            //int sayac=0;
             boolean sifreGecerliMi=false;
 
         for (int i = 1; i <10000 ; i++) {
